@@ -68,7 +68,7 @@ export default function AboutPage() {
               {[
                 {
                   icon: Mic2,
-                  title: "Weekly podcast",
+                  title: "Monthly podcast",
                   text: "Conversations with distillers, bartenders and industry experts.",
                 },
                 {
@@ -79,7 +79,7 @@ export default function AboutPage() {
                 {
                   icon: Globe,
                   title: "NZ focused",
-                  text: "From Northland to Bluff, we cover the whole country.",
+                  text: "From Northland to Stewart Island, we cover the whole country.",
                 },
                 {
                   icon: Award,

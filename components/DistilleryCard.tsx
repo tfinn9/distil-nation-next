@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
@@ -7,17 +8,19 @@ import { Distillery } from "@/types";
 import { MapPin } from "lucide-react";
 
 export function DistilleryCard({ distillery }: { distillery: Distillery }) {
+  const [src, setSrc] = useState(distillery.heroImage);
   return (
     <motion.div
       whileHover={{ y: -6 }}
       transition={{ duration: 0.2 }}
       className="group flex flex-col overflow-hidden rounded-2xl bg-card border border-border"
     >
-      <div className="relative aspect-[4/3] overflow-hidden">
+      <div className="relative aspect-[4/3] overflow-hidden bg-white p-6 flex items-center justify-center">
         <img
-          src={distillery.heroImage}
-          alt={distillery.name}
-          className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+          src={src}
+          alt={`${distillery.name} logo`}
+          onError={() => setSrc(`https://placehold.co/600x400/FFFFFF/202020?text=${encodeURIComponent(distillery.name)}`)}
+          className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-105"
         />
       </div>
       <div className="flex flex-1 flex-col p-5">

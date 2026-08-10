@@ -9,7 +9,8 @@ import { Newsletter } from "@/components/Newsletter";
 import { MapSection } from "@/components/MapSection";
 import { FadeIn } from "@/components/FadeIn";
 import { CTABanner } from "@/components/CTABanner";
-import { episodes, distilleries, articles, reviews, siteConfig } from "@/data/mock";
+import { episodes as fallbackEpisodes, distilleries, articles, reviews, siteConfig } from "@/data/mock";
+import { getSpreakerEpisodes } from "@/data/spreaker";
 import { Youtube, Headphones, Mail } from "lucide-react";
 import Link from "next/link";
 
@@ -18,7 +19,9 @@ export const metadata = {
   description: siteConfig.description,
 };
 
-export default function Home() {
+export default async function Home() {
+  const spreakerEpisodes = await getSpreakerEpisodes();
+  const featuredEpisode = spreakerEpisodes[0] || fallbackEpisodes[0];
   return (
     <>
       <Hero />
@@ -38,7 +41,7 @@ export default function Home() {
                 </Link>
               }
             />
-            <EpisodeCard episode={episodes[0]} featured />
+            <EpisodeCard episode={featuredEpisode} featured />
           </FadeIn>
         </div>
       </section>

@@ -2,12 +2,15 @@ import { notFound } from "next/navigation";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Newsletter } from "@/components/Newsletter";
-import { episodes } from "@/data/mock";
+import { getSpreakerEpisodes } from "@/data/spreaker";
+import { episodes as fallbackEpisodes } from "@/data/mock";
 import { Badge } from "@/components/ui/badge";
 import { Play, Headphones, Clock, User } from "lucide-react";
 
-export function generateStaticParams() {
-  return episodes.map((episode) => ({ slug: episode.slug }));
+export async function generateStaticParams() {
+  const spreakerEpisodes = await getSpreakerEpisodes();
+  const all = spreakerEpisodes.length > 0 ? spreakerEpisodes : fallbackEpisodes;
+  return all.map((episode) => ({ slug: episode.slug }));
 }
 
 export async function generateMetadata({
@@ -16,7 +19,10 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const episode = episodes.find((e) => e.slug === slug);
+  const spreakerEpisodes = await getSpreakerEpisodes();
+  const all = spreakerEpisodes.length > 0 ? spreakerEpisodes : fallbackEpisodes;
+  const episode = all.find((e) => e.slug === slug);
+
   if (!episode) return { title: "Episode | Distil-Nation NZ" };
   return {
     title: `${episode.title} | Distil-Nation NZ`,
@@ -30,7 +36,9 @@ export default async function EpisodePage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const episode = episodes.find((e) => e.slug === slug);
+  const spreakerEpisodes = await getSpreakerEpisodes();
+  const all = spreakerEpisodes.length > 0 ? spreakerEpisodes : fallbackEpisodes;
+  const episode = all.find((e) => e.slug === slug);
 
   if (!episode) notFound();
 
@@ -131,6 +139,17 @@ export default async function EpisodePage({
                 >
                   <Headphones className="h-5 w-5 text-gold" />
                   <span className="text-offwhite font-medium">Listen on Spotify</span>
+                </a>
+              )}
+              {episode.spreaker && (
+                <a
+                  href={episode.spreaker}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 rounded-xl bg-background border border-border p-4 hover:border-gold/30 transition-colors"
+                >
+                  <Headphones className="h-5 w-5 text-gold" />
+                  <span className="text-offwhite font-medium">Listen on Spreaker</span>
                 </a>
               )}
             </div>

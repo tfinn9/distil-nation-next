@@ -19,10 +19,9 @@ export default function LearnPage() {
             title="Learn"
             description="Knowledge and stories from the world of New Zealand craft spirits."
           />
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {articles.map((article) => (
-              <ArticleCard key={article.slug} article={article} />
-            ))}
+          <div className="rounded-3xl bg-card border border-border p-12 text-center">
+            <h3 className="font-heading text-2xl font-semibold text-offwhite mb-2">Knowledge base coming soon</h3>
+            <p className="text-muted-foreground">We&apos;re putting together guides and articles on New Zealand craft spirits. Check back shortly.</p>
           </div>
         </FadeIn>
       </div>

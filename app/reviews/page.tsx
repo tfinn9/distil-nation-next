@@ -19,10 +19,9 @@ export default function ReviewsPage() {
             title="Bottle reviews"
             description="Tasting notes, ratings and recommendations from the Distil-Nation NZ team."
           />
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {reviews.map((review) => (
-              <ReviewCard key={review.slug} review={review} />
-            ))}
+          <div className="rounded-3xl bg-card border border-border p-12 text-center">
+            <h3 className="font-heading text-2xl font-semibold text-offwhite mb-2">Reviews coming soon</h3>
+            <p className="text-muted-foreground">We&apos;re working through our first set of bottle reviews. Check back shortly for honest tasting notes.</p>
           </div>
         </FadeIn>
       </div>

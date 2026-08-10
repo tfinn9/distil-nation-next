@@ -397,24 +397,8 @@ export const reviews: Review[] = [
   },
 ];
 
-export const events: Event[] = [
-  {
-    slug: "nz-craft-spirits-festival-2026",
-    title: "NZ Craft Spirits Festival 2026",
-    date: "2026-03-14",
-    location: "Wellington",
-    description: "A celebration of New Zealand's best distillers, with tastings, talks and live podcasts.",
-    image: "https://placehold.co/1200x600/202020/F6F4EF?text=Festival",
-  },
-  {
-    slug: "distillery-open-day-otago",
-    title: "Otago Distillery Open Day",
-    date: "2026-04-05",
-    location: "Otago",
-    description: "Meet the makers behind some of the South Island's finest spirits.",
-    image: "https://placehold.co/1200x600/202020/F6F4EF?text=Open+Day",
-  },
-];
+export const events: Event[] = [];
+
 
 export const hosts: Host[] = [
   {
@@ -447,7 +431,7 @@ export const siteConfig = {
   spreaker: "https://www.spreaker.com/podcast/distil-nation-nz--5937481",
   facebook: "https://www.facebook.com/distilnationnz",
   instagram: "https://www.instagram.com/distilnationnz",
-  newsletterAction: "https://buttondown.com/api/emails/embed-form/YOUR_BUTTONDOWN_USERNAME",
+  newsletterAction: "https://buttondown.com/api/emails/embed-subscribe/distil-nation",
 };
 
 export const spiritTypes = ["All", "Whisky", "Gin", "Rum", "Vodka", "Liqueur", "Moonshine"];
