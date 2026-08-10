@@ -2,14 +2,12 @@ import { Hero } from "@/components/Hero";
 import { SectionHeader } from "@/components/SectionHeader";
 import { EpisodeCard } from "@/components/EpisodeCard";
 import { DistilleryCard } from "@/components/DistilleryCard";
-import { ArticleCard } from "@/components/ArticleCard";
-import { ReviewCard } from "@/components/ReviewCard";
 import { SubscribeCard } from "@/components/SubscribeCard";
 import { Newsletter } from "@/components/Newsletter";
 import { MapSection } from "@/components/MapSection";
 import { FadeIn } from "@/components/FadeIn";
 import { CTABanner } from "@/components/CTABanner";
-import { episodes as fallbackEpisodes, distilleries, articles, reviews, siteConfig } from "@/data/mock";
+import { episodes as fallbackEpisodes, distilleries, siteConfig } from "@/data/mock";
 import { getSpreakerEpisodes } from "@/data/spreaker";
 import { Youtube, Headphones, Mail } from "lucide-react";
 import Link from "next/link";
@@ -92,10 +90,9 @@ export default async function Home() {
               </Link>
             }
           />
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {articles.slice(0, 4).map((article) => (
-              <ArticleCard key={article.slug} article={article} />
-            ))}
+          <div className="rounded-3xl bg-card border border-border p-12 text-center">
+            <h3 className="font-heading text-2xl font-semibold text-offwhite mb-2">Knowledge base coming soon</h3>
+            <p className="text-muted-foreground max-w-xl mx-auto">We&apos;re putting together guides and articles on New Zealand craft spirits. Check back shortly.</p>
           </div>
         </div>
       </section>
@@ -114,10 +111,9 @@ export default async function Home() {
               </Link>
             }
           />
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {reviews.slice(0, 3).map((review) => (
-              <ReviewCard key={review.slug} review={review} />
-            ))}
+          <div className="rounded-3xl bg-card border border-border p-12 text-center">
+            <h3 className="font-heading text-2xl font-semibold text-offwhite mb-2">Reviews coming soon</h3>
+            <p className="text-muted-foreground max-w-xl mx-auto">We&apos;re working through our first set of bottle reviews. Check back shortly for honest tasting notes.</p>
           </div>
         </div>
       </section>

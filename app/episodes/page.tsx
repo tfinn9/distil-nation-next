@@ -23,7 +23,7 @@ export default async function EpisodesPage() {
             title="All episodes"
             description="Conversations with the people shaping New Zealand's craft spirits industry."
           />
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {episodes.map((episode) => (
               <EpisodeCard key={episode.slug} episode={episode} />
             ))}

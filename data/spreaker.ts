@@ -39,7 +39,7 @@ export async function getSpreakerEpisodes(): Promise<Episode[]> {
         title,
         guest: "Tom & Cameron",
         summary: summary.length > 180 ? `${summary.slice(0, 180)}…` : summary,
-        duration: formatDuration(item.duration),
+        duration: "",
         spreaker: item.site_url || `https://www.spreaker.com/episode/${id}`,
         thumbnail:
           item.image_original_url ||

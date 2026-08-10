@@ -91,7 +91,7 @@ export function EpisodeCard({ episode, featured = false }: { episode: Episode; f
       transition={{ duration: 0.2 }}
       className="group flex flex-col overflow-hidden rounded-2xl bg-card border border-border h-full"
     >
-      <div className="relative aspect-video overflow-hidden">
+      <div className="relative aspect-square overflow-hidden">
         <img
           src={imgSrc}
           alt={episode.title}
@@ -104,10 +104,6 @@ export function EpisodeCard({ episode, featured = false }: { episode: Episode; f
         </Badge>
       </div>
       <div className="flex flex-col p-4 flex-1">
-        <div className="flex items-center gap-2 text-xs text-muted-foreground mb-2">
-          <Clock className="h-3.5 w-3.5" />
-          <span>{episode.duration}</span>
-        </div>
         <h3 className="font-heading text-lg font-semibold text-offwhite mb-2 line-clamp-2">
           {episode.title}
         </h3>
