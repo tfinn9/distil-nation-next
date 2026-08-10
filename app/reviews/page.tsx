@@ -17,7 +17,7 @@ export default function ReviewsPage() {
         <FadeIn>
           <SectionHeader
             title="Bottle reviews"
-            description="Tasting notes, ratings and recommendations from the Distil-Nation team."
+            description="Tasting notes, ratings and recommendations from the Distil-Nation NZ team."
           />
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {reviews.map((review) => (

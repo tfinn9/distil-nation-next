@@ -3,9 +3,10 @@
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Mail } from "lucide-react";
+import { siteConfig } from "@/data/mock";
 
 export function Newsletter({
-  title = "Get the latest from Distil-Nation",
+  title = "Get the latest from Distil-Nation NZ",
   description = "New episodes, distillery profiles and NZ spirits news delivered monthly.",
 }: {
   title?: string;
@@ -20,10 +21,17 @@ export function Newsletter({
           </h3>
           <p className="text-muted-foreground">{description}</p>
         </div>
-        <form className="flex flex-col sm:flex-row gap-3" onSubmit={(e) => e.preventDefault()}>
+        <form
+          action={siteConfig.newsletterAction}
+          method="post"
+          target="_blank"
+          className="flex flex-col sm:flex-row gap-3"
+        >
           <Input
             type="email"
+            name="email"
             placeholder="you@email.com"
+            required
             className="h-12 bg-background border-border text-offwhite placeholder:text-muted-foreground flex-1"
           />
           <Button

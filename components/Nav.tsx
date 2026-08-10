@@ -23,7 +23,7 @@ export function Nav() {
             className="rounded-full border border-gold/50"
           />
           <span className="font-heading text-xl md:text-2xl font-semibold text-offwhite tracking-tight">
-            Distil-Nation
+            Distil-Nation NZ
           </span>
         </Link>
 

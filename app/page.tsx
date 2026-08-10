@@ -101,7 +101,7 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6">
           <SectionHeader
             title="Latest reviews"
-            description="Honest tasting notes from the Distil-Nation hosts."
+            description="Honest tasting notes from the Distil-Nation NZ hosts."
             action={
               <Link
                 href="/reviews/"

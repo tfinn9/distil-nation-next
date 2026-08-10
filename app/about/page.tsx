@@ -29,7 +29,7 @@ export default function AboutPage() {
               {siteConfig.description}
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              New Zealand&apos;s craft spirits industry is growing fast — from single malt whisky in the Southern Lakes to coastal gin in Auckland and Pacific rum in the north. Distil-Nation exists to tell the stories behind the bottle without the pretension.
+              New Zealand&apos;s craft spirits industry is growing fast — from single malt whisky in the Southern Lakes to coastal gin in Auckland and Pacific rum in the north. Distil-Nation NZ exists to tell the stories behind the bottle without the pretension.
             </p>
             <p className="text-muted-foreground leading-relaxed">
               Through long-form interviews, distillery visits, reviews and educational content, we&apos;re building a living record of the people, places and processes that make New Zealand spirits worth celebrating.
