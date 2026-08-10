@@ -8,7 +8,8 @@ import { Distillery } from "@/types";
 import { MapPin } from "lucide-react";
 
 export function DistilleryCard({ distillery }: { distillery: Distillery }) {
-  const [src, setSrc] = useState(distillery.heroImage);
+  const [src] = useState(distillery.heroImage);
+  const [hasError, setHasError] = useState(!src);
   return (
     <motion.div
       whileHover={{ y: -6 }}
@@ -16,12 +17,18 @@ export function DistilleryCard({ distillery }: { distillery: Distillery }) {
       className="group flex flex-col overflow-hidden rounded-2xl bg-card border border-border"
     >
       <div className="relative aspect-[4/3] overflow-hidden bg-white p-6 flex items-center justify-center">
-        <img
-          src={src}
-          alt={`${distillery.name} logo`}
-          onError={() => setSrc(`https://placehold.co/600x400/FFFFFF/202020?text=${encodeURIComponent(distillery.name)}`)}
-          className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-105"
-        />
+        {hasError ? (
+          <span className="font-heading text-xl font-semibold text-center text-gray-900">
+            {distillery.name}
+          </span>
+        ) : (
+          <img
+            src={src}
+            alt={`${distillery.name} logo`}
+            onError={() => setHasError(true)}
+            className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-105"
+          />
+        )}
       </div>
       <div className="flex flex-1 flex-col p-5">
         <div className="flex items-center gap-2 text-sm text-muted-foreground mb-2">

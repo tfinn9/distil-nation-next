@@ -1,5 +1,5 @@
 import { SectionHeader } from "@/components/SectionHeader";
-import { DistilleryCard } from "@/components/DistilleryCard";
+import { DistilleryGrid } from "@/components/DistilleryGrid";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FadeIn } from "@/components/FadeIn";
 import { distilleries, regions, spiritTypes } from "@/data/mock";
@@ -22,22 +22,11 @@ export default function DistilleriesPage() {
             description="The people and places behind New Zealand's most exciting craft spirits."
           />
 
-          <div className="flex flex-wrap gap-3 mb-8">
-            {regions.map((region) => (
-              <span
-                key={region}
-                className="rounded-full border border-border px-4 py-1.5 text-sm text-muted-foreground"
-              >
-                {region}
-              </span>
-            ))}
-          </div>
-
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {distilleries.map((distillery) => (
-              <DistilleryCard key={distillery.slug} distillery={distillery} />
-            ))}
-          </div>
+          <DistilleryGrid
+            distilleries={distilleries}
+            regions={regions}
+            spiritTypes={spiritTypes}
+          />
         </FadeIn>
       </div>
     </div>

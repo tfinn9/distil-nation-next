@@ -165,7 +165,7 @@ export const distilleries: Distillery[] = [
       "Gin"
     ],
     description: "Kakapo Distillery is a Auckland producer of Gin.",
-    heroImage: "https://placehold.co/1200x600/202020/F6F4EF?text=Kakapo+Distillery",
+    heroImage: "",
     website: "https://www.kakapodistillery.co.nz/",
     visitorInfo: "Cellar door available",
     hasVisitorCentre: true,
@@ -180,7 +180,7 @@ export const distilleries: Distillery[] = [
       "Rum"
     ],
     description: "Last Light Rum is a Auckland producer of Rum.",
-    heroImage: "https://lastlight.nz/cdn/shop/files/last_light_rum_hrz_white.png?v=1705446273&width=600",
+    heroImage: "",
     website: "https://lastlight.nz/",
     visitorInfo: "By appointment",
     hasVisitorCentre: false,
@@ -196,7 +196,7 @@ export const distilleries: Distillery[] = [
       "Rum"
     ],
     description: "Lunatic & Lover is a Auckland producer of Gin, Rum.",
-    heroImage: "https://placehold.co/1200x600/202020/F6F4EF?text=Lunatic+&+Lover",
+    heroImage: "",
     visitorInfo: "By appointment",
     hasVisitorCentre: false,
     hasTours: false,
@@ -243,7 +243,7 @@ export const distilleries: Distillery[] = [
       "Whisky"
     ],
     description: "Thomson Whisky is a Auckland producer of Gin, Whisky. Founded in 2014.",
-    heroImage: "https://thomsonwhisky.co.nz/cdn/shop/files/thomson_whisky_logo.png?v=1666728254&width=500",
+    heroImage: "https://thomsonwhisky.co.nz/cdn/shop/files/thomson_whisky_logo.jpg?height=628&pad_color=ffffff&v=1669692265&width=1200",
     founded: "2014",
     owners: "Mat Thomson",
     website: "https://thomsonwhisky.co.nz/",
@@ -297,7 +297,7 @@ export const distilleries: Distillery[] = [
       "Liqueurs"
     ],
     description: "Black Collar Distillery is a Northland producer of Gin, Vodka, Rum, Liqueurs.",
-    heroImage: "https://blackcollardistillery.com/cdn/shop/files/BCD-WHITE_LOGO.png?v=1680403777",
+    heroImage: "https://www.glengarrywines.co.nz/images/v10/brands/logos/black_collar_distillery.png",
     website: "https://blackcollardistillery.com/",
     visitorInfo: "By appointment",
     hasVisitorCentre: false,
@@ -464,15 +464,15 @@ export const distilleries: Distillery[] = [
     products: [],
   },
   {
-    slug: "papiti-gin",
-    name: "Papiti Gin",
+    slug: "papaiti-gin",
+    name: "Papaiti Gin",
     region: "Manawatū-Whanganui",
     spiritTypes: [
       "Gin",
       "Liqueurs"
     ],
-    description: "Papiti Gin is a Manawatū-Whanganui producer of Gin, Liqueurs.",
-    heroImage: "https://papaitigin.co.nz/cdn/shop/files/PapaitiGin-Logos_LeftAligned-white_4.svg?v=1745213954&width=832",
+    description: "Papaiti Gin is a Manawatū-Whanganui producer of Gin, Liqueurs.",
+    heroImage: "https://www.newzealand.com/assets/externally-managed-assets/tbd-assets/tbd-folder-10068024/img-1714038688-6102-3293333-tbd-asset__ExtRewriteWyJwbmciLCJqcGciXQ_aWxvdmVrZWxseQo_CropResizeWzgwMCwzMDAsODAsImpwZyJd.jpg",
     website: "https://papaitigin.co.nz/",
     visitorInfo: "Cellar door available",
     hasVisitorCentre: true,
@@ -488,7 +488,7 @@ export const distilleries: Distillery[] = [
       "Liqueurs"
     ],
     description: "Good Bones Distilling is a Manawatū-Whanganui producer of Vodka, Liqueurs.",
-    heroImage: "https://goodbones.nz/cdn/shop/files/good_bones_vector_300x300.png?v=1719009609",
+    heroImage: "https://goodbones.nz/cdn/shop/files/gbd_new_logo_03499073-8fa9-4eca-bb65-0cc3a0af7d48.png?v=1719015213",
     website: "https://goodbones.nz/",
     visitorInfo: "Cellar door available",
     hasVisitorCentre: true,
@@ -605,7 +605,7 @@ export const distilleries: Distillery[] = [
       "Liqueurs"
     ],
     description: "Kiwi Spirits Distillery is a Tasman producer of Gin, Whisky, Vodka, Agave, Liqueurs.",
-    heroImage: "https://kiwispiritdistillery.co.nz/cdn/shop/files/Kiwi_Spirit_Distillery_-_White_Logo_Small_15698524-3f0a-45d3-93cb-23fbcfe5fee5.png?v=1707961963&width=400",
+    heroImage: "https://register.newzealand.com/sites/default/files/business_logo/kiwi-spirit-distillery-main-logo-set_kiwi-spirit-distillery-main-logo-1-black.png",
     website: "https://kiwispiritdistillery.co.nz/",
     visitorInfo: "Cellar door and Tours available",
     hasVisitorCentre: true,
@@ -652,7 +652,7 @@ export const distilleries: Distillery[] = [
       "Gin"
     ],
     description: "Bureaucrats Gin is a Wellington producer of Gin.",
-    heroImage: "https://placehold.co/1200x600/202020/F6F4EF?text=Bureaucrats+Gin",
+    heroImage: "",
     visitorInfo: "By appointment",
     hasVisitorCentre: false,
     hasTours: false,
@@ -715,7 +715,7 @@ export const distilleries: Distillery[] = [
       "Gin"
     ],
     description: "Elemental Distillers is a Marlborough producer of Gin.",
-    heroImage: "https://rootsdrygin.com/cdn/shop/files/thumbnail_ED_Logo-Modern_Invert_Trans.png?v=1734299139&width=1100",
+    heroImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWg3fanXCn3JoqiPv8vo8YKfvS_WaxlBCEMAlMKJYfTBrj1Dc3fX55Mxn9&s=10",
     website: "https://rootsdrygin.com/",
     visitorInfo: "Cellar door available",
     hasVisitorCentre: true,
@@ -732,7 +732,7 @@ export const distilleries: Distillery[] = [
       "Gin"
     ],
     description: "Strange Nature Gin is a Marlborough producer of Gin.",
-    heroImage: "https://strangenaturegin.com/cdn/shop/files/Strange_Nature_Full_Logo_White.png?v=1774500331",
+    heroImage: "https://www.aeliadutyfree.co.nz/media/brands/logo/Strange_Nature_Distilling_Colour_Primary_1_.png",
     website: "https://strangenaturegin.com/",
     visitorInfo: "By appointment",
     hasVisitorCentre: false,
@@ -747,7 +747,7 @@ export const distilleries: Distillery[] = [
       "Rum"
     ],
     description: "Best Behaviour Rum is a Bay of Plenty producer of Rum.",
-    heroImage: "https://www.bestbehaviour.co.nz/cdn/shop/files/Untitled-2-28.png?v=1762985877",
+    heroImage: "",
     website: "https://www.bestbehaviour.co.nz/",
     visitorInfo: "Cellar door available",
     hasVisitorCentre: true,
@@ -785,7 +785,7 @@ export const distilleries: Distillery[] = [
       "Liqueurs"
     ],
     description: "Cardrona Distillery is a Otago producer of Gin, Whisky, Vodka, Liqueurs.",
-    heroImage: "https://www.cardronadistillery.co.nz/cdn/shop/files/logo.svg?v=1739324902&width=100",
+    heroImage: "https://cdn.prod.website-files.com/602d41cd545b17c31a7d937d/619ff2ae64d6da1c90a01188_Cardrona-Distillery.png",
     website: "https://www.cardronadistillery.co.nz/",
     visitorInfo: "Cellar door and Tours available",
     hasVisitorCentre: true,
@@ -802,7 +802,7 @@ export const distilleries: Distillery[] = [
       "RTDs"
     ],
     description: "Scapegrace is a Otago producer of Gin, Whisky, RTDs.",
-    heroImage: "https://placehold.co/1200x600/202020/F6F4EF?text=Scapegrace",
+    heroImage: "",
     website: "https://scapegracedistillery.com/",
     visitorInfo: "By appointment",
     hasVisitorCentre: false,
@@ -838,7 +838,7 @@ export const distilleries: Distillery[] = [
       "Vodka"
     ],
     description: "Rifters is a Otago producer of Gin, Whisky, Vodka.",
-    heroImage: "https://riftersgin.com/cdn/shop/files/Rifters-White_360x.svg?v=1780541906",
+    heroImage: "https://www.arrowtown.com/wp-content/uploads/2024/08/RiftersLogoWebsite1.png",
     website: "https://riftersgin.com/",
     visitorInfo: "Cellar door available",
     hasVisitorCentre: true,
@@ -920,7 +920,7 @@ export const distilleries: Distillery[] = [
       "Liqueurs"
     ],
     description: "New Zealand Whisky Collection is a Otago producer of Whisky, Vodka, Liqueurs.",
-    heroImage: "https://thenzwhisky.com/images/logo-white.png",
+    heroImage: "https://shopspeights.co.nz/cdn/shop/collections/48380962_2330835763628292_4098241163729829888_n_1200x1200.jpg?v=1635723088",
     website: "https://thenzwhisky.com/",
     visitorInfo: "Cellar door and Tours available",
     hasVisitorCentre: true,
@@ -985,7 +985,7 @@ export const distilleries: Distillery[] = [
       "Gin"
     ],
     description: "Akaroa Craft Distillery is a Canterbury producer of Gin.",
-    heroImage: "https://placehold.co/1200x600/202020/F6F4EF?text=Akaroa+Craft+Distillery",
+    heroImage: "",
     website: "https://www.akaroacraftdistillery.com/",
     visitorInfo: "Cellar door and Tours available",
     hasVisitorCentre: true,
@@ -1017,7 +1017,7 @@ export const distilleries: Distillery[] = [
       "Gin"
     ],
     description: "Elsewhere Gin is a Canterbury producer of Gin.",
-    heroImage: "https://placehold.co/1200x600/202020/F6F4EF?text=Elsewhere+Gin",
+    heroImage: "",
     website: "https://www.elsewheregin.com/",
     visitorInfo: "By appointment",
     hasVisitorCentre: false,
@@ -1066,7 +1066,7 @@ export const distilleries: Distillery[] = [
       "Gin"
     ],
     description: "Lyttelton Distillery Co is a Canterbury producer of Gin. Founded in 2017.",
-    heroImage: "https://placehold.co/1200x600/202020/F6F4EF?text=Lyttelton+Distillery+Co",
+    heroImage: "",
     founded: "2017",
     visitorInfo: "By appointment",
     hasVisitorCentre: false,
@@ -1225,7 +1225,17 @@ export const siteConfig = {
   newsletterAction: "https://buttondown.com/api/emails/embed-subscribe/distil-nation",
 };
 
-export const spiritTypes = ["All", "Whisky", "Gin", "Rum", "Vodka", "Liqueur", "Moonshine"];
+export const spiritTypes = [
+  "All",
+  "Gin",
+  "Whisky",
+  "Rum",
+  "Vodka",
+  "Liqueurs",
+  "Agave",
+  "Brandy",
+  "RTDs"
+];
 export const regions = [
   "All",
   "Auckland",
