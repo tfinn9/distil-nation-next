@@ -18,6 +18,8 @@ export interface Distillery {
   slug: string;
   name: string;
   region: string;
+  island: "North" | "South";
+  isActive: boolean;
   spiritTypes: string[];
   description: string;
   heroImage: string;
@@ -30,6 +32,8 @@ export interface Distillery {
   hasTours: boolean;
   products: string[];
   episodeSlug?: string;
+  lat?: number;
+  lng?: number;
 }
 
 export interface Article {

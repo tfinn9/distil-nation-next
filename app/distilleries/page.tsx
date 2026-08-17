@@ -1,5 +1,6 @@
 import { SectionHeader } from "@/components/SectionHeader";
 import { DistilleryGrid } from "@/components/DistilleryGrid";
+import { DistilleryStats } from "@/components/DistilleryStats";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FadeIn } from "@/components/FadeIn";
 import { distilleries, regions, spiritTypes, siteConfig } from "@/data/mock";
@@ -37,6 +38,8 @@ export default function DistilleriesPage() {
               </div>
             }
           />
+
+          <DistilleryStats distilleries={distilleries} />
 
           <DistilleryGrid
             distilleries={distilleries}

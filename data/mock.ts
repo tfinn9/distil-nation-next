@@ -109,6 +109,8 @@ export const distilleries: Distillery[] = [
     slug: "1919-distilling",
     name: "1919 Distilling",
     region: "Auckland",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Whisky",
@@ -122,11 +124,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: true,
     products: [],
+    lat: -36.85,
+    lng: 174.76,
   },
   {
     slug: "budo-spirits",
     name: "Budo Spirits",
     region: "Auckland",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Vodka"
@@ -140,11 +146,15 @@ export const distilleries: Distillery[] = [
     products: [
       "Budo Gin"
     ],
+    lat: -36.85,
+    lng: 174.76,
   },
   {
     slug: "d-stil",
     name: "d:STIL",
     region: "Auckland",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -156,11 +166,15 @@ export const distilleries: Distillery[] = [
     products: [
       "Coatesvillian Gin"
     ],
+    lat: -36.85,
+    lng: 174.76,
   },
   {
     slug: "kakapo-distillery",
     name: "Kakapo Distillery",
     region: "Auckland",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -171,11 +185,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: false,
     products: [],
+    lat: -36.85,
+    lng: 174.76,
   },
   {
     slug: "last-light-rum",
     name: "Last Light Rum",
     region: "Auckland",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Rum"
     ],
@@ -186,11 +204,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -36.85,
+    lng: 174.76,
   },
   {
     slug: "lunatic-lover",
     name: "Lunatic & Lover",
     region: "Auckland",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Rum"
@@ -201,11 +223,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -36.85,
+    lng: 174.76,
   },
   {
     slug: "nv-distilling-co",
     name: "NV Distilling Co.",
     region: "Auckland",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -218,11 +244,15 @@ export const distilleries: Distillery[] = [
     products: [
       "Moksha Drinks"
     ],
+    lat: -36.85,
+    lng: 174.76,
   },
   {
     slug: "papaka-road-distillery",
     name: "Papaka Road Distillery",
     region: "Auckland",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -233,11 +263,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -36.85,
+    lng: 174.76,
   },
   {
     slug: "thomson-whisky",
     name: "Thomson Whisky",
     region: "Auckland",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Whisky"
@@ -251,11 +285,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -36.85,
+    lng: 174.76,
   },
   {
     slug: "twelfth-hour",
     name: "Twelfth Hour",
     region: "Auckland",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -266,11 +304,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -36.85,
+    lng: 174.76,
   },
   {
     slug: "batch10-spirits",
     name: "Batch10 Spirits",
     region: "Auckland",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Whisky",
@@ -285,11 +327,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -36.85,
+    lng: 174.76,
   },
   {
     slug: "black-collar-distillery",
     name: "Black Collar Distillery",
     region: "Northland",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Vodka",
@@ -303,11 +349,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -35.72,
+    lng: 174.32,
   },
   {
     slug: "waiheke-distilling-co",
     name: "Waiheke Distilling Co.",
     region: "Auckland",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -318,11 +368,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: true,
     products: [],
+    lat: -36.85,
+    lng: 174.76,
   },
   {
     slug: "waiheke-whisky",
     name: "Waiheke Whisky",
     region: "Auckland",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Whisky"
     ],
@@ -334,11 +388,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: true,
     products: [],
+    lat: -36.85,
+    lng: 174.76,
   },
   {
     slug: "coromandel-distilling-company",
     name: "Coromandel Distilling Company",
     region: "Auckland",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -351,11 +409,15 @@ export const distilleries: Distillery[] = [
     products: [
       "Awildian Gin"
     ],
+    lat: -36.85,
+    lng: 174.76,
   },
   {
     slug: "simply-pure",
     name: "Simply Pure",
     region: "Bay of Plenty",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Vodka"
@@ -369,11 +431,15 @@ export const distilleries: Distillery[] = [
     products: [
       "Black Robin Gin"
     ],
+    lat: -37.99,
+    lng: 176.24,
   },
   {
     slug: "clarity-distilling-co",
     name: "Clarity Distilling Co",
     region: "Bay of Plenty",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -384,11 +450,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -37.99,
+    lng: 176.24,
   },
   {
     slug: "5-mile-distilling",
     name: "5 Mile Distilling",
     region: "Waikato",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -399,11 +469,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: true,
     products: [],
+    lat: -37.79,
+    lng: 175.28,
   },
   {
     slug: "pokeno-whisky",
     name: "Pokeno Whisky",
     region: "Waikato",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Whisky"
     ],
@@ -414,11 +488,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: true,
     products: [],
+    lat: -37.79,
+    lng: 175.28,
   },
   {
     slug: "pungent-pukeko",
     name: "Pungent Pukeko",
     region: "Waikato",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -429,11 +507,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -37.79,
+    lng: 175.28,
   },
   {
     slug: "fenton-street",
     name: "Fenton Street",
     region: "Taranaki",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Whisky"
@@ -445,11 +527,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: false,
     products: [],
+    lat: -39.06,
+    lng: 174.08,
   },
   {
     slug: "juno-gin",
     name: "Juno Gin",
     region: "Taranaki",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Vodka",
@@ -462,11 +548,33 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: true,
     products: [],
+    lat: -39.06,
+    lng: 174.08,
+  },
+  {
+    slug: "national-distillery-co",
+    name: "National Distillery Co",
+    region: "Hawke's Bay",
+    island: "North",
+    isActive: false,
+    spiritTypes: [
+      "Spirits"
+    ],
+    description: "National Distillery Co is a Hawke's Bay producer of Spirits.",
+    heroImage: "",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [],
+    lat: -39.49,
+    lng: 176.91,
   },
   {
     slug: "papaiti-gin",
     name: "Papaiti Gin",
     region: "Manawatū-Whanganui",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Liqueurs"
@@ -478,11 +586,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: false,
     products: [],
+    lat: -40.35,
+    lng: 175.61,
   },
   {
     slug: "good-bones-distilling",
     name: "Good Bones Distilling",
     region: "Manawatū-Whanganui",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Vodka",
       "Liqueurs"
@@ -494,11 +606,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: false,
     products: [],
+    lat: -40.35,
+    lng: 175.61,
   },
   {
     slug: "dr-beak-gin",
     name: "Dr Beak Gin",
     region: "Marlborough",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -509,11 +625,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -41.51,
+    lng: 173.96,
   },
   {
     slug: "enceladus-distilling-co",
     name: "Enceladus Distilling Co",
     region: "Marlborough",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -526,11 +646,15 @@ export const distilleries: Distillery[] = [
     products: [
       "The Winslow Distillery"
     ],
+    lat: -41.51,
+    lng: 173.96,
   },
   {
     slug: "greytown-distilling-co",
     name: "Greytown Distilling Co",
     region: "Marlborough",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Liqueurs"
@@ -542,11 +666,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -41.51,
+    lng: 173.96,
   },
   {
     slug: "imagination-gin",
     name: "Imagination Gin",
     region: "Marlborough",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -557,11 +685,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -41.51,
+    lng: 173.96,
   },
   {
     slug: "reid-reid",
     name: "Reid & Reid",
     region: "Marlborough",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -572,11 +704,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -41.51,
+    lng: 173.96,
   },
   {
     slug: "village-distillery",
     name: "Village Distillery",
     region: "Tasman",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Vodka",
@@ -592,11 +728,15 @@ export const distilleries: Distillery[] = [
     products: [
       "Dancing Sands"
     ],
+    lat: -41.27,
+    lng: 173.28,
   },
   {
     slug: "kiwi-spirits-distillery",
     name: "Kiwi Spirits Distillery",
     region: "Tasman",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Whisky",
@@ -611,11 +751,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: true,
     products: [],
+    lat: -41.27,
+    lng: 173.28,
   },
   {
     slug: "rough-hands",
     name: "Rough Hands",
     region: "Tasman",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Brandy"
     ],
@@ -628,11 +772,15 @@ export const distilleries: Distillery[] = [
     products: [
       "Elsewhen"
     ],
+    lat: -41.27,
+    lng: 173.28,
   },
   {
     slug: "headwaters-distillery",
     name: "Headwaters Distillery",
     region: "Tasman",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Whisky"
     ],
@@ -643,11 +791,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -41.27,
+    lng: 173.28,
   },
   {
     slug: "bureaucrats-gin",
     name: "Bureaucrats Gin",
     region: "Wellington",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -657,11 +809,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -41.29,
+    lng: 174.78,
   },
   {
     slug: "karori-drinks-company",
     name: "Karori Drinks Company",
     region: "Wellington",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -674,11 +830,15 @@ export const distilleries: Distillery[] = [
     products: [
       "Chemistry Gin"
     ],
+    lat: -41.29,
+    lng: 174.78,
   },
   {
     slug: "southward-distilling",
     name: "Southward Distilling",
     region: "Wellington",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Whisky",
@@ -691,11 +851,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: false,
     products: [],
+    lat: -41.29,
+    lng: 174.78,
   },
   {
     slug: "whistlebird-gin",
     name: "Whistlebird Gin",
     region: "Wellington",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -706,11 +870,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -41.29,
+    lng: 174.78,
   },
   {
     slug: "elemental-distillers",
     name: "Elemental Distillers",
     region: "Marlborough",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -723,11 +891,15 @@ export const distilleries: Distillery[] = [
     products: [
       "Roots Gin"
     ],
+    lat: -41.51,
+    lng: 173.96,
   },
   {
     slug: "strange-nature-gin",
     name: "Strange Nature Gin",
     region: "Marlborough",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -738,11 +910,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -41.51,
+    lng: 173.96,
   },
   {
     slug: "best-behaviour-rum",
     name: "Best Behaviour Rum",
     region: "Bay of Plenty",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Rum"
     ],
@@ -753,11 +929,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: false,
     products: [],
+    lat: -37.99,
+    lng: 176.24,
   },
   {
     slug: "reefton-distilling-co",
     name: "Reefton Distilling Co",
     region: "West Coast",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Whisky",
@@ -773,11 +953,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: false,
     products: [],
+    lat: -42.45,
+    lng: 171.21,
   },
   {
     slug: "cardrona-distillery",
     name: "Cardrona Distillery",
     region: "Otago",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Whisky",
@@ -791,11 +975,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: true,
     products: [],
+    lat: -45.87,
+    lng: 170.5,
   },
   {
     slug: "scapegrace",
     name: "Scapegrace",
     region: "Otago",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Whisky",
@@ -808,11 +996,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -45.87,
+    lng: 170.5,
   },
   {
     slug: "broken-heart-spirits",
     name: "Broken Heart Spirits",
     region: "Otago",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Whisky",
@@ -827,11 +1019,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -45.87,
+    lng: 170.5,
   },
   {
     slug: "rifters",
     name: "Rifters",
     region: "Otago",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Whisky",
@@ -844,11 +1040,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: false,
     products: [],
+    lat: -45.87,
+    lng: 170.5,
   },
   {
     slug: "rakiura-distilling-co",
     name: "Rakiura Distilling Co",
     region: "Southland",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Vodka"
@@ -862,11 +1062,15 @@ export const distilleries: Distillery[] = [
     products: [
       "Third Island Gin"
     ],
+    lat: -46.41,
+    lng: 168.35,
   },
   {
     slug: "auld-farm-distillery",
     name: "Auld Farm Distillery",
     region: "Southland",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Whisky"
@@ -879,11 +1083,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: true,
     products: [],
+    lat: -46.41,
+    lng: 168.35,
   },
   {
     slug: "bluff-gin",
     name: "Bluff Gin",
     region: "Southland",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -894,11 +1102,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: true,
     products: [],
+    lat: -46.41,
+    lng: 168.35,
   },
   {
     slug: "dunedin-craft-spirits",
     name: "Dunedin Craft Spirits",
     region: "Otago",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -909,11 +1121,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: true,
     products: [],
+    lat: -45.87,
+    lng: 170.5,
   },
   {
     slug: "new-zealand-whisky-collection",
     name: "New Zealand Whisky Collection",
     region: "Otago",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Whisky",
       "Vodka",
@@ -926,11 +1142,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: true,
     products: [],
+    lat: -45.87,
+    lng: 170.5,
   },
   {
     slug: "no8-distillery",
     name: "No8 Distillery",
     region: "Otago",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Vodka",
@@ -944,11 +1164,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: true,
     products: [],
+    lat: -45.87,
+    lng: 170.5,
   },
   {
     slug: "sandymount-distillery",
     name: "Sandymount Distillery",
     region: "Otago",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Whisky"
@@ -960,11 +1184,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: true,
     products: [],
+    lat: -45.87,
+    lng: 170.5,
   },
   {
     slug: "humdinger-gin",
     name: "Humdinger Gin",
     region: "Canterbury",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Liqueurs"
@@ -976,11 +1204,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: false,
     products: [],
+    lat: -43.53,
+    lng: 172.64,
   },
   {
     slug: "akaroa-craft-distillery",
     name: "Akaroa Craft Distillery",
     region: "Canterbury",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -993,11 +1225,15 @@ export const distilleries: Distillery[] = [
     products: [
       "Hectors"
     ],
+    lat: -43.53,
+    lng: 172.64,
   },
   {
     slug: "bloody-good-gin",
     name: "Bloody Good Gin",
     region: "Canterbury",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -1008,11 +1244,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -43.53,
+    lng: 172.64,
   },
   {
     slug: "elsewhere-gin",
     name: "Elsewhere Gin",
     region: "Canterbury",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -1023,11 +1263,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -43.53,
+    lng: 172.64,
   },
   {
     slug: "forth-luck-gin",
     name: "Forth Luck Gin",
     region: "Canterbury",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -1038,11 +1282,55 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -43.53,
+    lng: 172.64,
+  },
+  {
+    slug: "herrick-creek-distillery",
+    name: "Herrick Creek Distillery",
+    region: "Canterbury",
+    island: "South",
+    isActive: false,
+    spiritTypes: [
+      "Gin",
+      "Whisky",
+      "Moonshine"
+    ],
+    description: "Herrick Creek Distillery is a Canterbury producer of Gin, Whisky, Moonshine. Founded in 2019.",
+    heroImage: "https://herrickcreek.co.nz/cdn/shop/files/HERRICK_CREEK_1.png?v=1777525396&width=3840",
+    founded: "2019",
+    owners: "Tom Finn",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [],
+    lat: -43.53,
+    lng: 172.64,
+  },
+  {
+    slug: "honest-truth-gin",
+    name: "Honest Truth Gin",
+    region: "Canterbury",
+    island: "South",
+    isActive: false,
+    spiritTypes: [
+      "Gin"
+    ],
+    description: "Honest Truth Gin is a Canterbury producer of Gin.",
+    heroImage: "",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [],
+    lat: -43.53,
+    lng: 172.64,
   },
   {
     slug: "longshot-distillery",
     name: "Longshot Distillery",
     region: "Canterbury",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Vodka",
@@ -1057,11 +1345,15 @@ export const distilleries: Distillery[] = [
     products: [
       "The Racketeer"
     ],
+    lat: -43.53,
+    lng: 172.64,
   },
   {
     slug: "lyttelton-distillery-co",
     name: "Lyttelton Distillery Co",
     region: "Canterbury",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -1072,11 +1364,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -43.53,
+    lng: 172.64,
   },
   {
     slug: "the-spirits-workshop",
     name: "The Spirits Workshop",
     region: "Canterbury",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Whisky",
@@ -1089,11 +1385,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: true,
     products: [],
+    lat: -43.53,
+    lng: 172.64,
   },
   {
     slug: "4-bars-distillery",
     name: "4 Bars Distillery",
     region: "Canterbury",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -1104,11 +1404,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: false,
     products: [],
+    lat: -43.53,
+    lng: 172.64,
   },
   {
     slug: "armada-spirits",
     name: "Armada Spirits",
     region: "Bay of Plenty",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Rum"
@@ -1120,11 +1424,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -37.99,
+    lng: 176.24,
   },
   {
     slug: "amigos-aotearoa",
     name: "Amigos Aotearoa",
     region: "Auckland",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Agave"
     ],
@@ -1135,11 +1443,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -36.85,
+    lng: 174.76,
   },
   {
     slug: "barlovska",
     name: "Barlovska",
     region: "Wellington",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Liqueurs"
     ],
@@ -1150,11 +1462,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -41.29,
+    lng: 174.78,
   },
   {
     slug: "batched-cocktails",
     name: "Batched Cocktails",
     region: "Auckland",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Liqueurs"
     ],
@@ -1165,11 +1481,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -36.85,
+    lng: 174.76,
   },
   {
     slug: "bay-distillery",
     name: "Bay Distillery",
     region: "Bay of Plenty",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Liqueurs"
@@ -1181,11 +1501,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -37.99,
+    lng: 176.24,
   },
   {
     slug: "bayside-rum-co",
     name: "Bayside Rum Co",
     region: "Auckland",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Rum"
     ],
@@ -1195,11 +1519,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -36.85,
+    lng: 174.76,
   },
   {
     slug: "broken-shed-vodka",
     name: "Broken Shed Vodka",
     region: "Otago",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Vodka"
     ],
@@ -1210,11 +1538,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -45.87,
+    lng: 170.5,
   },
   {
     slug: "carbon6ix",
     name: "Carbon6ix",
     region: "Auckland",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Rum",
@@ -1227,11 +1559,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: false,
     products: [],
+    lat: -36.85,
+    lng: 174.76,
   },
   {
     slug: "clark-lane-distillery",
     name: "Clark Lane Distillery",
     region: "Waikato",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -1244,11 +1580,15 @@ export const distilleries: Distillery[] = [
     products: [
       "Piko Gin"
     ],
+    lat: -37.79,
+    lng: 175.28,
   },
   {
     slug: "dynamic-distillers",
     name: "Dynamic Distillers",
     region: "Bay of Plenty",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -1261,11 +1601,15 @@ export const distilleries: Distillery[] = [
     products: [
       "Dabblers"
     ],
+    lat: -37.99,
+    lng: 176.24,
   },
   {
     slug: "fen-field",
     name: "Fen & Field",
     region: "Waikato",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -1276,11 +1620,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -37.79,
+    lng: 175.28,
   },
   {
     slug: "harrier-springs-distillery",
     name: "Harrier Springs Distillery",
     region: "Auckland",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Moonshine",
       "Liqueurs"
@@ -1292,11 +1640,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -36.85,
+    lng: 174.76,
   },
   {
     slug: "harrison-wood-distillery",
     name: "Harrison Wood Distillery",
     region: "Auckland",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Rum"
     ],
@@ -1307,11 +1659,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -36.85,
+    lng: 174.76,
   },
   {
     slug: "hastings-distillers",
     name: "Hastings Distillers",
     region: "Hawke's Bay",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -1322,11 +1678,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: false,
     products: [],
+    lat: -39.49,
+    lng: 176.91,
   },
   {
     slug: "island-gin",
     name: "Island Gin",
     region: "Auckland",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -1337,11 +1697,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -36.85,
+    lng: 174.76,
   },
   {
     slug: "jd-distillery",
     name: "JD Distillery",
     region: "Waikato",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -1354,11 +1718,15 @@ export const distilleries: Distillery[] = [
     products: [
       "Mile Marker Gin"
     ],
+    lat: -37.79,
+    lng: 175.28,
   },
   {
     slug: "kaimai-distillery",
     name: "Kaimai Distillery",
     region: "Waikato",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Vodka",
@@ -1372,11 +1740,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -37.79,
+    lng: 175.28,
   },
   {
     slug: "kj-co-distillery",
     name: "KJ & Co Distillery",
     region: "Canterbury",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Vodka",
@@ -1391,11 +1763,15 @@ export const distilleries: Distillery[] = [
     products: [
       "Last Minute Gin"
     ],
+    lat: -43.53,
+    lng: 172.64,
   },
   {
     slug: "lady-h-spirits",
     name: "Lady H Spirits",
     region: "Auckland",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -1406,11 +1782,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -36.85,
+    lng: 174.76,
   },
   {
     slug: "lammermoor-distillery",
     name: "Lammermoor Distillery",
     region: "Otago",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Whisky"
@@ -1422,11 +1802,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: true,
     products: [],
+    lat: -45.87,
+    lng: 170.5,
   },
   {
     slug: "laughing-owl-whisky",
     name: "Laughing Owl Whisky",
     region: "Canterbury",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Whisky"
     ],
@@ -1437,11 +1821,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -43.53,
+    lng: 172.64,
   },
   {
     slug: "lavender-hill-distillery",
     name: "Lavender Hill Distillery",
     region: "Auckland",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Liqueurs"
@@ -1453,11 +1841,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: true,
     products: [],
+    lat: -36.85,
+    lng: 174.76,
   },
   {
     slug: "lighthouse-gin",
     name: "Lighthouse Gin",
     region: "Manawatū-Whanganui",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -1468,11 +1860,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -40.35,
+    lng: 175.61,
   },
   {
     slug: "lwf-distillery",
     name: "LWF Distillery",
     region: "Taranaki",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Rum",
       "Liqueurs"
@@ -1484,11 +1880,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -39.06,
+    lng: 174.08,
   },
   {
     slug: "matahui-distillery",
     name: "Matahui Distillery",
     region: "Bay of Plenty",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Liqueurs"
@@ -1500,11 +1900,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -37.99,
+    lng: 176.24,
   },
   {
     slug: "matakana-gin",
     name: "Matakana Gin",
     region: "Auckland",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -1515,11 +1919,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -36.85,
+    lng: 174.76,
   },
   {
     slug: "milford-distilling",
     name: "Milford Distilling",
     region: "Southland",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -1530,11 +1938,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -46.41,
+    lng: 168.35,
   },
   {
     slug: "prophecy-distilling",
     name: "Prophecy Distilling",
     region: "Otago",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Vodka"
@@ -1546,11 +1958,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -45.87,
+    lng: 170.5,
   },
   {
     slug: "saddle-hill-distillery",
     name: "Saddle Hill Distillery",
     region: "Otago",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Whisky"
@@ -1562,11 +1978,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: false,
     products: [],
+    lat: -45.87,
+    lng: 170.5,
   },
   {
     slug: "southern-grain-spirits-nz-ltd",
     name: "Southern Grain Spirits (NZ) Ltd",
     region: "Canterbury",
+    island: "South",
+    isActive: true,
     spiritTypes: [
       "Whisky",
       "Other Spirits"
@@ -1580,11 +2000,15 @@ export const distilleries: Distillery[] = [
     products: [
       "Kaiapoi Distillery"
     ],
+    lat: -43.53,
+    lng: 172.64,
   },
   {
     slug: "ranui-essentials",
     name: "Ranui Essentials",
     region: "Wellington",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Vodka",
@@ -1597,11 +2021,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: false,
     products: [],
+    lat: -41.29,
+    lng: 174.78,
   },
   {
     slug: "remarkable-cream",
     name: "Remarkable Cream",
     region: "Auckland",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Liqueurs"
     ],
@@ -1612,11 +2040,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -36.85,
+    lng: 174.76,
   },
   {
     slug: "rotorua-distilling-co",
     name: "Rotorua Distilling Co",
     region: "Waikato",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Liqueurs"
@@ -1630,11 +2062,15 @@ export const distilleries: Distillery[] = [
     products: [
       "Pink & White Gin"
     ],
+    lat: -37.79,
+    lng: 175.28,
   },
   {
     slug: "ruapehu-distillery",
     name: "Ruapehu Distillery",
     region: "Manawatū-Whanganui",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -1647,11 +2083,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: true,
     products: [],
+    lat: -40.35,
+    lng: 175.61,
   },
   {
     slug: "sip-distilling-co",
     name: "Sip Distilling Co",
     region: "Auckland",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Vodka",
@@ -1665,11 +2105,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: false,
     products: [],
+    lat: -36.85,
+    lng: 174.76,
   },
   {
     slug: "sum-yum-soju",
     name: "Sum Yum Soju",
     region: "Auckland",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Vodka",
       "Other Spirits"
@@ -1681,11 +2125,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -36.85,
+    lng: 174.76,
   },
   {
     slug: "tahu-drinks",
     name: "Tahu Drinks",
     region: "Auckland",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -1696,11 +2144,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -36.85,
+    lng: 174.76,
   },
   {
     slug: "the-bond-store",
     name: "The Bond Store",
     region: "Wellington",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Whisky",
@@ -1713,11 +2165,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: false,
     products: [],
+    lat: -41.29,
+    lng: 174.78,
   },
   {
     slug: "the-cambridge-distillery",
     name: "The Cambridge Distillery",
     region: "Waikato",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin",
       "Liqueurs"
@@ -1729,11 +2185,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: false,
     products: [],
+    lat: -37.79,
+    lng: 175.28,
   },
   {
     slug: "nz-rum-co",
     name: "NZ Rum Co.",
     region: "Auckland",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Rum"
     ],
@@ -1744,11 +2204,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: true,
     hasTours: true,
     products: [],
+    lat: -36.85,
+    lng: 174.76,
   },
   {
     slug: "unlikely-companions",
     name: "Unlikely Companions",
     region: "Hawke's Bay",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Gin"
     ],
@@ -1759,11 +2223,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -39.49,
+    lng: 176.91,
   },
   {
     slug: "wilderkin-spirits",
     name: "Wilderkin Spirits",
     region: "Bay of Plenty",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Vodka"
     ],
@@ -1774,11 +2242,15 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -37.99,
+    lng: 176.24,
   },
   {
     slug: "zealan-vodka",
     name: "Zealan Vodka",
     region: "Taranaki",
+    island: "North",
+    isActive: true,
     spiritTypes: [
       "Vodka"
     ],
@@ -1789,6 +2261,8 @@ export const distilleries: Distillery[] = [
     hasVisitorCentre: false,
     hasTours: false,
     products: [],
+    lat: -39.06,
+    lng: 174.08,
   },
 ];
 
@@ -1934,14 +2408,15 @@ export const spiritTypes = [
   "Liqueurs",
   "Agave",
   "Brandy",
-  "RTDs"
+  "RTDs",
+  "Moonshine",
+  "Other Spirits"
 ];
 export const regions = [
   "All",
   "Auckland",
   "Bay of Plenty",
   "Canterbury",
-  "Central Otago",
   "Hawke's Bay",
   "Manawatū-Whanganui",
   "Marlborough",
@@ -1951,8 +2426,6 @@ export const regions = [
   "Taranaki",
   "Tasman",
   "Waikato",
-  "Wairarapa",
-  "Waitaki",
   "Wellington",
   "West Coast"
 ];
