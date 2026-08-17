@@ -78,48 +78,6 @@ export default async function Home() {
 
       <section className="py-20 md:py-28 bg-card">
         <div className="container mx-auto px-4 md:px-6">
-          <SectionHeader
-            title="Learn"
-            description="The knowledge hub for understanding New Zealand spirits."
-            action={
-              <Link
-                href="/learn/"
-                className="text-gold font-medium hover:text-gold/80 transition-colors"
-              >
-                All articles →
-              </Link>
-            }
-          />
-          <div className="rounded-3xl bg-card border border-border p-12 text-center">
-            <h3 className="font-heading text-2xl font-semibold text-offwhite mb-2">Knowledge base coming soon</h3>
-            <p className="text-muted-foreground max-w-xl mx-auto">We&apos;re putting together guides and articles on New Zealand craft spirits. Check back shortly.</p>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-20 md:py-28 bg-background">
-        <div className="container mx-auto px-4 md:px-6">
-          <SectionHeader
-            title="Latest reviews"
-            description="Honest tasting notes from the Distil-Nation NZ hosts."
-            action={
-              <Link
-                href="/reviews/"
-                className="text-gold font-medium hover:text-gold/80 transition-colors"
-              >
-                More reviews →
-              </Link>
-            }
-          />
-          <div className="rounded-3xl bg-card border border-border p-12 text-center">
-            <h3 className="font-heading text-2xl font-semibold text-offwhite mb-2">Reviews coming soon</h3>
-            <p className="text-muted-foreground max-w-xl mx-auto">We&apos;re working through our first set of bottle reviews. Check back shortly for honest tasting notes.</p>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-20 md:py-28 bg-card">
-        <div className="container mx-auto px-4 md:px-6">
           <CTABanner
             title="Subscribe to the podcast"
             description="Catch every episode on your favourite platform."
@@ -151,7 +109,49 @@ export default async function Home() {
         </div>
       </section>
 
-      <section className="pb-20 md:pb-28 bg-card">
+      <section className="py-20 md:py-28 bg-background">
+        <div className="container mx-auto px-4 md:px-6">
+          <SectionHeader
+            title="Learn"
+            description="The knowledge hub for understanding New Zealand spirits."
+            action={
+              <Link
+                href="/learn/"
+                className="text-gold font-medium hover:text-gold/80 transition-colors"
+              >
+                All articles →
+              </Link>
+            }
+          />
+          <div className="rounded-3xl bg-card border border-border p-12 text-center">
+            <h3 className="font-heading text-2xl font-semibold text-offwhite mb-2">Knowledge base coming soon</h3>
+            <p className="text-muted-foreground max-w-xl mx-auto">We&apos;re putting together guides and articles on New Zealand craft spirits. Check back shortly.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 md:py-28 bg-card">
+        <div className="container mx-auto px-4 md:px-6">
+          <SectionHeader
+            title="Latest reviews"
+            description="Honest tasting notes from the Distil-Nation NZ hosts."
+            action={
+              <Link
+                href="/reviews/"
+                className="text-gold font-medium hover:text-gold/80 transition-colors"
+              >
+                More reviews →
+              </Link>
+            }
+          />
+          <div className="rounded-3xl bg-card border border-border p-12 text-center">
+            <h3 className="font-heading text-2xl font-semibold text-offwhite mb-2">Reviews coming soon</h3>
+            <p className="text-muted-foreground max-w-xl mx-auto">We&apos;re working through our first set of bottle reviews. Check back shortly for honest tasting notes.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="pb-20 md:pb-28 bg-background">
         <div className="container mx-auto px-4 md:px-6">
           <Newsletter />
         </div>

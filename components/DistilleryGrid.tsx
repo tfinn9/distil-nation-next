@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
 import dynamic from "next/dynamic";
 import { DistilleryCard } from "./DistilleryCard";
 import { Distillery } from "@/types";
@@ -24,6 +25,7 @@ export function DistilleryGrid({
   regions: string[];
   spiritTypes: string[];
 }) {
+  const searchParams = useSearchParams();
   const [view, setView] = useState<"grid" | "map">("grid");
   const [region, setRegion] = useState("All");
   const [spirit, setSpirit] = useState("All");
@@ -31,6 +33,13 @@ export function DistilleryGrid({
   const [cellarDoorOnly, setCellarDoorOnly] = useState(false);
   const [toursOnly, setToursOnly] = useState(false);
   const [activeOnly, setActiveOnly] = useState(true);
+
+  useEffect(() => {
+    const fromUrl = searchParams.get("region");
+    if (fromUrl && regions.includes(fromUrl)) {
+      setRegion(fromUrl);
+    }
+  }, [searchParams, regions]);
 
   const filtered = useMemo(() => {
     return distilleries.filter(

@@ -22,8 +22,13 @@ export function Nav() {
             height={44}
             className="rounded-full border border-gold/50"
           />
-          <span className="font-heading text-xl md:text-2xl font-semibold text-offwhite tracking-tight">
-            Distil-Nation NZ
+          <span className="flex flex-col leading-tight">
+            <span className="font-heading text-xl md:text-2xl font-semibold text-offwhite tracking-tight">
+              Distil-Nation NZ
+            </span>
+            <span className="text-[11px] md:text-xs font-medium text-muted-foreground tracking-wide">
+              NZ Spirits Podcast
+            </span>
           </span>
         </Link>
 

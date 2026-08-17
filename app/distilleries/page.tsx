@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { SectionHeader } from "@/components/SectionHeader";
 import { DistilleryGrid } from "@/components/DistilleryGrid";
 import { DistilleryStats } from "@/components/DistilleryStats";
@@ -41,11 +42,13 @@ export default function DistilleriesPage() {
 
           <DistilleryStats distilleries={distilleries} />
 
-          <DistilleryGrid
-            distilleries={distilleries}
-            regions={regions}
-            spiritTypes={spiritTypes}
-          />
+          <Suspense fallback={null}>
+            <DistilleryGrid
+              distilleries={distilleries}
+              regions={regions}
+              spiritTypes={spiritTypes}
+            />
+          </Suspense>
         </FadeIn>
       </div>
     </div>
