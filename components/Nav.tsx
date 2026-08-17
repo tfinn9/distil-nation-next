@@ -1,15 +1,26 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { navItems } from "@/data/mock";
-import { Play, Menu } from "lucide-react";
+import { Play, Menu, UserCircle } from "lucide-react";
 import Image from "next/image";
+import { createClient } from "@/lib/supabase/client";
 
 export function Nav() {
   const [open, setOpen] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  useEffect(() => {
+    const supabase = createClient();
+    supabase.auth.getUser().then(({ data }) => setIsLoggedIn(!!data.user));
+    const { data: subscription } = supabase.auth.onAuthStateChange((_event, session) => {
+      setIsLoggedIn(!!session?.user);
+    });
+    return () => subscription.subscription.unsubscribe();
+  }, []);
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/85 backdrop-blur-md">
@@ -46,6 +57,13 @@ export function Nav() {
 
         <div className="hidden lg:flex items-center gap-4">
           <Link
+            href={isLoggedIn ? "/account" : "/login"}
+            className="inline-flex items-center gap-1.5 text-sm font-medium text-muted-foreground hover:text-offwhite transition-colors"
+          >
+            <UserCircle className="h-4 w-4" />
+            {isLoggedIn ? "Account" : "Log in"}
+          </Link>
+          <Link
             href="/episodes/"
             className="inline-flex items-center gap-1.5 rounded-lg bg-gold px-3 py-1.5 text-sm font-semibold text-charcoal hover:bg-gold/90 transition-colors"
           >
@@ -73,6 +91,14 @@ export function Nav() {
                   {item.label}
                 </Link>
               ))}
+              <Link
+                href={isLoggedIn ? "/account" : "/login"}
+                onClick={() => setOpen(false)}
+                className="inline-flex items-center gap-2 text-lg font-heading text-offwhite hover:text-gold transition-colors"
+              >
+                <UserCircle className="h-5 w-5" />
+                {isLoggedIn ? "Account" : "Log in"}
+              </Link>
               <Link
                 href="/episodes/"
                 onClick={() => setOpen(false)}
