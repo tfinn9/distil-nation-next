@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Newsletter } from "@/components/Newsletter";
-import { distilleries, episodes } from "@/data/mock";
+import { distilleries, episodes, siteConfig } from "@/data/mock";
 import { Badge } from "@/components/ui/badge";
 import { MapPin, Globe, Award, Users, Clock } from "lucide-react";
 import Link from "next/link";
@@ -174,6 +174,12 @@ export default async function DistilleryPage({
               <div className="rounded-2xl bg-background border border-border p-5 aspect-[4/3] flex items-center justify-center">
                 <p className="text-muted-foreground">Google Map placeholder</p>
               </div>
+              <a
+                href={`mailto:${siteConfig.email}?subject=${encodeURIComponent(`Suggest an edit - ${distillery.name}`)}`}
+                className="block text-center rounded-full border border-border px-5 py-2.5 text-sm font-medium text-offwhite hover:border-gold/50 transition-colors"
+              >
+                Suggest an edit
+              </a>
             </div>
           </div>
         </div>

@@ -1090,6 +1090,706 @@ export const distilleries: Distillery[] = [
     hasTours: true,
     products: [],
   },
+  {
+    slug: "4-bars-distillery",
+    name: "4 Bars Distillery",
+    region: "Canterbury",
+    spiritTypes: [
+      "Gin"
+    ],
+    description: "4 Bars Distillery is a Canterbury producer of Gin.",
+    heroImage: "https://www.4bars.co.nz/cdn/shop/files/4BARS_-_Logo_-_Icon_-_Sky_-_RGB.svg?height=210&v=1747201045",
+    website: "https://www.4bars.co.nz/",
+    visitorInfo: "Cellar door available",
+    hasVisitorCentre: true,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "armada-spirits",
+    name: "Armada Spirits",
+    region: "Bay of Plenty",
+    spiritTypes: [
+      "Gin",
+      "Rum"
+    ],
+    description: "Armada Spirits is a Bay of Plenty producer of Gin, Rum.",
+    heroImage: "",
+    website: "https://www.armadaspirits.co.nz/",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "amigos-aotearoa",
+    name: "Amigos Aotearoa",
+    region: "Auckland",
+    spiritTypes: [
+      "Agave"
+    ],
+    description: "Amigos Aotearoa is a Auckland producer of Agave.",
+    heroImage: "https://amigosaotearoa.co.nz/cdn/shop/files/AA_Logo.png?v=1647310339&width=800",
+    website: "https://amigosaotearoa.co.nz/",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "barlovska",
+    name: "Barlovska",
+    region: "Wellington",
+    spiritTypes: [
+      "Liqueurs"
+    ],
+    description: "Barlovska is a Wellington producer of Liqueurs.",
+    heroImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfGmoB1HV6d0wd5zJlQrEqiM05c5Hpmukq5LqW7ha85E1D8cVZccvAyqw&s=10",
+    website: "https://www.barlovska.nz/",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "batched-cocktails",
+    name: "Batched Cocktails",
+    region: "Auckland",
+    spiritTypes: [
+      "Liqueurs"
+    ],
+    description: "Batched Cocktails is a Auckland producer of Liqueurs.",
+    heroImage: "",
+    website: "https://www.batched.co.nz/",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "bay-distillery",
+    name: "Bay Distillery",
+    region: "Bay of Plenty",
+    spiritTypes: [
+      "Gin",
+      "Liqueurs"
+    ],
+    description: "Bay Distillery is a Bay of Plenty producer of Gin, Liqueurs.",
+    heroImage: "https://d111ai8eht49ae.cloudfront.net/logo_image_16a06d9bae668ff6990f6a11f9c32e82_nHgUf.png",
+    website: "https://baydistilling.com/",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "bayside-rum-co",
+    name: "Bayside Rum Co",
+    region: "Auckland",
+    spiritTypes: [
+      "Rum"
+    ],
+    description: "Bayside Rum Co is a Auckland producer of Rum.",
+    heroImage: "https://scontent-akl1-1.cdninstagram.com/v/t51.2885-19/152774721_218691176646047_4672462306926955889_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zNjcuYzIifQ&_nc_ht=scontent-akl1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gGmXB-46hMECJYrUUCEG6WH1GAPrJ_NjyUvyVTb_jM2k73v7xkK8I_MjZz-D-MdyLc&_nc_ohc=NevgB027yBYQ7kNvwGDZaTJ&_nc_gid=gwi7vkg3iAjcChjquqlwxw&edm=APoiHPcBAAAA&ccb=7-5&oh=00_AQECbFu-vBV_ZfpFylOEhgvRpBbXlE7-Gs1uTvhsFzXhhg&oe=6A804D19&_nc_sid=22de04",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "broken-shed-vodka",
+    name: "Broken Shed Vodka",
+    region: "Otago",
+    spiritTypes: [
+      "Vodka"
+    ],
+    description: "Broken Shed Vodka is a Otago producer of Vodka.",
+    heroImage: "https://cdn.sfx.pics/brokenshed/_resources/themes/brokenshed/images/logo-full.png?m=1750730767",
+    website: "https://brokenshed.com/",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "carbon6ix",
+    name: "Carbon6ix",
+    region: "Auckland",
+    spiritTypes: [
+      "Gin",
+      "Rum",
+      "Liqueurs"
+    ],
+    description: "Carbon6ix is a Auckland producer of Gin, Rum, Liqueurs.",
+    heroImage: "",
+    website: "https://carbonsix.co.nz/",
+    visitorInfo: "Cellar door available",
+    hasVisitorCentre: true,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "clark-lane-distillery",
+    name: "Clark Lane Distillery",
+    region: "Waikato",
+    spiritTypes: [
+      "Gin"
+    ],
+    description: "Clark Lane Distillery is a Waikato producer of Gin.",
+    heroImage: "",
+    website: "https://clarklanedistillery.co.nz/",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [
+      "Piko Gin"
+    ],
+  },
+  {
+    slug: "dynamic-distillers",
+    name: "Dynamic Distillers",
+    region: "Bay of Plenty",
+    spiritTypes: [
+      "Gin"
+    ],
+    description: "Dynamic Distillers is a Bay of Plenty producer of Gin.",
+    heroImage: "https://dzpdbgwih7u1r.cloudfront.net/971291f5-1e25-48c0-90bd-c7f545cf04bb/9c704713-4177-4a3a-ae4e-bd8cb36a53f5/9c704713-4401-433b-9d98-83e277d0cbf9/w159h177-d8fb2b5654bb921db7cab8b77beff922.png",
+    website: "https://www.dabblersgin.co.nz/",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [
+      "Dabblers"
+    ],
+  },
+  {
+    slug: "fen-field",
+    name: "Fen & Field",
+    region: "Waikato",
+    spiritTypes: [
+      "Gin"
+    ],
+    description: "Fen & Field is a Waikato producer of Gin.",
+    heroImage: "https://fenandfield.co.nz/wp-content/uploads/2024/03/FenField_Branding_bw_b-3.png",
+    website: "https://fenandfield.co.nz/",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "harrier-springs-distillery",
+    name: "Harrier Springs Distillery",
+    region: "Auckland",
+    spiritTypes: [
+      "Moonshine",
+      "Liqueurs"
+    ],
+    description: "Harrier Springs Distillery is a Auckland producer of Moonshine, Liqueurs.",
+    heroImage: "https://static.wixstatic.com/media/462b58_21ccad26c4ea4ecd91f2fee9e7531dda~mv2.png/v1/fill/w_186,h_168,al_c,lg_1,q_85,enc_avif,quality_auto/462b58_21ccad26c4ea4ecd91f2fee9e7531dda~mv2.png",
+    website: "https://www.harrierspringsdistillery.com/",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "harrison-wood-distillery",
+    name: "Harrison Wood Distillery",
+    region: "Auckland",
+    spiritTypes: [
+      "Rum"
+    ],
+    description: "Harrison Wood Distillery is a Auckland producer of Rum.",
+    heroImage: "",
+    website: "https://www.harrisonwood.co.nz/",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "hastings-distillers",
+    name: "Hastings Distillers",
+    region: "Hawke's Bay",
+    spiritTypes: [
+      "Gin"
+    ],
+    description: "Hastings Distillers is a Hawke's Bay producer of Gin.",
+    heroImage: "https://images.squarespace-cdn.com/content/v1/5ea81ae7f754e75201e28281/1589886588889-FEDECNY4UBFCBVRFX9EW/HastingsDistillers_Brandmark.png?format=1500w",
+    website: "https://www.hastingsdistillers.com/home",
+    visitorInfo: "Cellar door available",
+    hasVisitorCentre: true,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "island-gin",
+    name: "Island Gin",
+    region: "Auckland",
+    spiritTypes: [
+      "Gin"
+    ],
+    description: "Island Gin is a Auckland producer of Gin.",
+    heroImage: "https://islandgin.com/cdn/shop/files/zoomyagelogopic1416708947age-verification.webp?v=1713860060&width=330",
+    website: "https://islandgin.com/",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "jd-distillery",
+    name: "JD Distillery",
+    region: "Waikato",
+    spiritTypes: [
+      "Gin"
+    ],
+    description: "JD Distillery is a Waikato producer of Gin.",
+    heroImage: "https://milemarker66.co.nz/cdn/shop/files/logo-bl.png?v=1720484814&width=3840",
+    website: "https://milemarker66.co.nz/",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [
+      "Mile Marker Gin"
+    ],
+  },
+  {
+    slug: "kaimai-distillery",
+    name: "Kaimai Distillery",
+    region: "Waikato",
+    spiritTypes: [
+      "Gin",
+      "Vodka",
+      "Rum",
+      "Liqueurs"
+    ],
+    description: "Kaimai Distillery is a Waikato producer of Gin, Vodka, Rum, Liqueurs.",
+    heroImage: "https://cdn.prod.website-files.com/669624590bd7b3ebf0c81cf7/6a21e6f6f722e9577cbcd0e4_Kaimai%20Brewing%20And%20Distilling%20Logo-p-3200.jpg",
+    website: "https://www.kaimaibrewinganddistilling.co.nz/",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "kj-co-distillery",
+    name: "KJ & Co Distillery",
+    region: "Canterbury",
+    spiritTypes: [
+      "Gin",
+      "Vodka",
+      "Rum"
+    ],
+    description: "KJ & Co Distillery is a Canterbury producer of Gin, Vodka, Rum.",
+    heroImage: "https://www.kjdistillery.co.nz/cdn/shop/files/KJ_Logo_ad16fa44-208d-44dd-a6ec-572db9b5e67f.png?height=200&v=1768951166",
+    website: "https://www.kjdistillery.co.nz/",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [
+      "Last Minute Gin"
+    ],
+  },
+  {
+    slug: "lady-h-spirits",
+    name: "Lady H Spirits",
+    region: "Auckland",
+    spiritTypes: [
+      "Gin"
+    ],
+    description: "Lady H Spirits is a Auckland producer of Gin.",
+    heroImage: "https://ladyhspirits.com/cdn/shop/files/LadyH_Tracey_CC.png?v=1667800249&width=150",
+    website: "https://ladyhspirits.com/",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "lammermoor-distillery",
+    name: "Lammermoor Distillery",
+    region: "Otago",
+    spiritTypes: [
+      "Gin",
+      "Whisky"
+    ],
+    description: "Lammermoor Distillery is a Otago producer of Gin, Whisky.",
+    heroImage: "https://lammermoordistillery.com/cdn/shop/files/WEBLOGO_650X200_1_280x@2x.png?v=1613700703",
+    website: "https://lammermoordistillery.com/",
+    visitorInfo: "Cellar door and Tours available",
+    hasVisitorCentre: true,
+    hasTours: true,
+    products: [],
+  },
+  {
+    slug: "laughing-owl-whisky",
+    name: "Laughing Owl Whisky",
+    region: "Canterbury",
+    spiritTypes: [
+      "Whisky"
+    ],
+    description: "Laughing Owl Whisky is a Canterbury producer of Whisky.",
+    heroImage: "https://laughingowlwhisky.co.nz/wp-content/uploads/2025/08/main-logo-dark.svg",
+    website: "https://laughingowlwhisky.co.nz/",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "lavender-hill-distillery",
+    name: "Lavender Hill Distillery",
+    region: "Auckland",
+    spiritTypes: [
+      "Gin",
+      "Liqueurs"
+    ],
+    description: "Lavender Hill Distillery is a Auckland producer of Gin, Liqueurs.",
+    heroImage: "",
+    website: "https://www.lavenderhill.co.nz/distillery.html",
+    visitorInfo: "Cellar door and Tours available",
+    hasVisitorCentre: true,
+    hasTours: true,
+    products: [],
+  },
+  {
+    slug: "lighthouse-gin",
+    name: "Lighthouse Gin",
+    region: "Manawatū-Whanganui",
+    spiritTypes: [
+      "Gin"
+    ],
+    description: "Lighthouse Gin is a Manawatū-Whanganui producer of Gin.",
+    heroImage: "",
+    website: "https://www.lighthousegin.co.nz/",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "lwf-distillery",
+    name: "LWF Distillery",
+    region: "Taranaki",
+    spiritTypes: [
+      "Rum",
+      "Liqueurs"
+    ],
+    description: "LWF Distillery is a Taranaki producer of Rum, Liqueurs.",
+    heroImage: "",
+    website: "https://lwfdistilling.com/",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "matahui-distillery",
+    name: "Matahui Distillery",
+    region: "Bay of Plenty",
+    spiritTypes: [
+      "Gin",
+      "Liqueurs"
+    ],
+    description: "Matahui Distillery is a Bay of Plenty producer of Gin, Liqueurs.",
+    heroImage: "https://matahuidistillery.com/wp-content/uploads/2025/10/Matahui-Distillery-Logo-scaled.png",
+    website: "https://matahuidistillery.com/",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "matakana-gin",
+    name: "Matakana Gin",
+    region: "Auckland",
+    spiritTypes: [
+      "Gin"
+    ],
+    description: "Matakana Gin is a Auckland producer of Gin.",
+    heroImage: "",
+    website: "https://www.matakanagin.co.nz/",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "milford-distilling",
+    name: "Milford Distilling",
+    region: "Southland",
+    spiritTypes: [
+      "Gin"
+    ],
+    description: "Milford Distilling is a Southland producer of Gin.",
+    heroImage: "",
+    website: "https://www.milfordgin.com/",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "prophecy-distilling",
+    name: "Prophecy Distilling",
+    region: "Otago",
+    spiritTypes: [
+      "Gin",
+      "Vodka"
+    ],
+    description: "Prophecy Distilling is a Otago producer of Gin, Vodka.",
+    heroImage: "https://images.squarespace-cdn.com/content/v1/649627e4d515bc438d523d48/8130983a-02a8-480e-9821-3f133a088909/Prophecy+Distilling+Co.+Logo+BLACK.png?format=1500w",
+    website: "https://www.prophecydistilling.co.nz/home",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "saddle-hill-distillery",
+    name: "Saddle Hill Distillery",
+    region: "Otago",
+    spiritTypes: [
+      "Gin",
+      "Whisky"
+    ],
+    description: "Saddle Hill Distillery is a Otago producer of Gin, Whisky.",
+    heroImage: "https://www.saddlehillbrewery.com/assets/shb_logo_white-DaT6EuQs.png",
+    website: "https://www.saddlehillbrewery.com/",
+    visitorInfo: "Cellar door available",
+    hasVisitorCentre: true,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "southern-grain-spirits-nz-ltd",
+    name: "Southern Grain Spirits (NZ) Ltd",
+    region: "Canterbury",
+    spiritTypes: [
+      "Whisky",
+      "Other Spirits"
+    ],
+    description: "Southern Grain Spirits (NZ) Ltd is a Canterbury producer of Whisky, Other Spirits.",
+    heroImage: "https://images.squarespace-cdn.com/content/v1/681984e33cd44a2c9e30e610/5f6f088f-7b68-4b20-a5b6-4be4a3d46cf6/kaiapoi-distillery.png?format=1500w",
+    website: "https://www.kaiapoidistillery.nz/",
+    visitorInfo: "Cellar door available",
+    hasVisitorCentre: true,
+    hasTours: false,
+    products: [
+      "Kaiapoi Distillery"
+    ],
+  },
+  {
+    slug: "ranui-essentials",
+    name: "Ranui Essentials",
+    region: "Wellington",
+    spiritTypes: [
+      "Gin",
+      "Vodka",
+      "Liqueurs"
+    ],
+    description: "Ranui Essentials is a Wellington producer of Gin, Vodka, Liqueurs.",
+    heroImage: "https://ranuiessentials.co.nz/cdn/shop/files/Ranui_NewLogo-grey-01_360x.png?v=1647822229",
+    website: "https://ranuiessentials.co.nz/collections/alcohol",
+    visitorInfo: "Cellar door available",
+    hasVisitorCentre: true,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "remarkable-cream",
+    name: "Remarkable Cream",
+    region: "Auckland",
+    spiritTypes: [
+      "Liqueurs"
+    ],
+    description: "Remarkable Cream is a Auckland producer of Liqueurs.",
+    heroImage: "https://remarkablecream.nz/cdn/shop/files/RemarkableCream_Logo_Colour-removebg-removebg.png?v=1728779568&width=460",
+    website: "https://remarkablecream.nz/",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "rotorua-distilling-co",
+    name: "Rotorua Distilling Co",
+    region: "Waikato",
+    spiritTypes: [
+      "Gin",
+      "Liqueurs"
+    ],
+    description: "Rotorua Distilling Co is a Waikato producer of Gin, Liqueurs.",
+    heroImage: "https://rotoruadistilling.com/cdn/shop/files/ChatGPT_Image_Sep_16_2025_09_33_24_PM.png?v=1758015242&width=180",
+    website: "https://rotoruadistilling.com/",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [
+      "Pink & White Gin"
+    ],
+  },
+  {
+    slug: "ruapehu-distillery",
+    name: "Ruapehu Distillery",
+    region: "Manawatū-Whanganui",
+    spiritTypes: [
+      "Gin"
+    ],
+    description: "Ruapehu Distillery is a Manawatū-Whanganui producer of Gin. Founded in 2026.",
+    heroImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8-aFAr7EyxgJtsU2yS5XUj481GtLXFfKMXuoM1rQSNg&s",
+    founded: "2026",
+    owners: "Susan Delaney",
+    website: "https://www.ruapehudistillery.com/",
+    visitorInfo: "Cellar door and Tours available",
+    hasVisitorCentre: true,
+    hasTours: true,
+    products: [],
+  },
+  {
+    slug: "sip-distilling-co",
+    name: "Sip Distilling Co",
+    region: "Auckland",
+    spiritTypes: [
+      "Gin",
+      "Vodka",
+      "Rum"
+    ],
+    description: "Sip Distilling Co is a Auckland producer of Gin, Vodka, Rum.",
+    heroImage: "https://www.sipdistilling.co.nz/cdn/shop/files/Untitled_2000_x_1000_px_2000_x_2000_px.png?v=1767312517&width=340",
+    owners: "Caci Erasmus",
+    website: "https://www.sipdistilling.co.nz/",
+    visitorInfo: "Cellar door available",
+    hasVisitorCentre: true,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "sum-yum-soju",
+    name: "Sum Yum Soju",
+    region: "Auckland",
+    spiritTypes: [
+      "Vodka",
+      "Other Spirits"
+    ],
+    description: "Sum Yum Soju is a Auckland producer of Vodka, Other Spirits.",
+    heroImage: "https://static.wixstatic.com/media/47d1ed_a9ada6da94484a8aadf625e3c6424bcf~mv2.png/v1/fill/w_324,h_254,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/SUM-YUM-Logo-New-v2.png",
+    website: "https://www.sumyum.co.nz/",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "tahu-drinks",
+    name: "Tahu Drinks",
+    region: "Auckland",
+    spiritTypes: [
+      "Gin"
+    ],
+    description: "Tahu Drinks is a Auckland producer of Gin.",
+    heroImage: "https://tahudrinks.com/cdn/shop/files/transparent_logo_website.png?v=1665476140",
+    website: "https://tahudrinks.com/",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "the-bond-store",
+    name: "The Bond Store",
+    region: "Wellington",
+    spiritTypes: [
+      "Gin",
+      "Whisky",
+      "Liqueurs"
+    ],
+    description: "The Bond Store is a Wellington producer of Gin, Whisky, Liqueurs.",
+    heroImage: "",
+    website: "https://thebondstore.co.nz/",
+    visitorInfo: "Cellar door available",
+    hasVisitorCentre: true,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "the-cambridge-distillery",
+    name: "The Cambridge Distillery",
+    region: "Waikato",
+    spiritTypes: [
+      "Gin",
+      "Liqueurs"
+    ],
+    description: "The Cambridge Distillery is a Waikato producer of Gin, Liqueurs.",
+    heroImage: "",
+    website: "https://www.thecambridgedistillery.co.nz/",
+    visitorInfo: "Cellar door available",
+    hasVisitorCentre: true,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "nz-rum-co",
+    name: "NZ Rum Co.",
+    region: "Auckland",
+    spiritTypes: [
+      "Rum"
+    ],
+    description: "NZ Rum Co. is a Auckland producer of Rum.",
+    heroImage: "",
+    website: "https://www.thenzrumco.nz/",
+    visitorInfo: "Cellar door and Tours available",
+    hasVisitorCentre: true,
+    hasTours: true,
+    products: [],
+  },
+  {
+    slug: "unlikely-companions",
+    name: "Unlikely Companions",
+    region: "Hawke's Bay",
+    spiritTypes: [
+      "Gin"
+    ],
+    description: "Unlikely Companions is a Hawke's Bay producer of Gin.",
+    heroImage: "https://www.unlikelycompanions.co/cdn/shop/files/WELCOME_TO_OUR_LAUNCH_PARTY_700_x_400_px_-3.png?v=1759714234&width=3840",
+    website: "https://www.unlikelycompanions.co/",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "wilderkin-spirits",
+    name: "Wilderkin Spirits",
+    region: "Bay of Plenty",
+    spiritTypes: [
+      "Vodka"
+    ],
+    description: "Wilderkin Spirits is a Bay of Plenty producer of Vodka.",
+    heroImage: "https://wilderkinspirits.com/wp-content/uploads/2022/09/WILDERKIN-V2.png",
+    website: "https://wilderkinspirits.com/",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [],
+  },
+  {
+    slug: "zealan-vodka",
+    name: "Zealan Vodka",
+    region: "Taranaki",
+    spiritTypes: [
+      "Vodka"
+    ],
+    description: "Zealan Vodka is a Taranaki producer of Vodka.",
+    heroImage: "https://zealanvodka.com/wp-content/uploads/Zealand-BlueGradient-Full-600x161.png",
+    website: "https://zealanvodka.com/",
+    visitorInfo: "By appointment",
+    hasVisitorCentre: false,
+    hasTours: false,
+    products: [],
+  },
 ];
 
 export const articles: Article[] = [
