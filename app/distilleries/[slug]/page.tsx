@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Newsletter } from "@/components/Newsletter";
+import { PassportControls } from "@/components/PassportControls";
 import { distilleries, episodes, siteConfig } from "@/data/mock";
 import { Badge } from "@/components/ui/badge";
 import { MapPin, Globe, Award, Users, Clock } from "lucide-react";
@@ -167,6 +168,7 @@ export default async function DistilleryPage({
             </div>
 
             <div className="space-y-4">
+              <PassportControls distillerySlug={distillery.slug} />
               <div className="rounded-2xl bg-background border border-border p-5">
                 <h2 className="font-heading text-xl font-semibold text-offwhite mb-3">Visitor information</h2>
                 <p className="text-muted-foreground">{distillery.visitorInfo || "Contact the distillery for visiting arrangements."}</p>
