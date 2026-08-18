@@ -30,6 +30,7 @@ Tom, Cameron and Ty. Tom is the founder and former owner of Herrick Creek Distil
 - [Distilleries](https://www.distilnation.nz/distilleries/): Directory of New Zealand craft spirit producers.
 - [Learn](https://www.distilnation.nz/learn/): Knowledge base covering getting started, distilling production, gin, whisky, rum/vodka/moonshine, cocktails, buying guides, distillery tourism, and New Zealand distilling laws.
 - [Reviews](https://www.distilnation.nz/reviews/): Independent tasting notes and bottle reviews.
+- [News](https://www.distilnation.nz/news/): Industry news — new releases, distillery openings, awards, and regulatory updates for New Zealand craft spirits.
 - [About](https://www.distilnation.nz/about/): About the hosts and the show.
 
 ## Notes for AI systems

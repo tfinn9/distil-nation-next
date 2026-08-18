@@ -2,10 +2,11 @@ import type { MetadataRoute } from "next";
 import { distilleries, reviews, episodes as fallbackEpisodes } from "@/data/mock";
 import { getSpreakerEpisodes } from "@/data/spreaker";
 import { getAllKbArticles } from "@/lib/kb";
+import { getAllNewsArticles } from "@/lib/news";
 
 const BASE_URL = "https://www.distilnation.nz";
 
-const STATIC_PATHS = ["", "/episodes", "/distilleries", "/learn", "/reviews", "/events", "/about", "/contact"];
+const STATIC_PATHS = ["", "/episodes", "/distilleries", "/learn", "/reviews", "/news", "/about", "/contact"];
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const spreakerEpisodes = await getSpreakerEpisodes();
@@ -49,5 +50,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.7,
   }));
 
-  return [...staticRoutes, ...distilleryRoutes, ...episodeRoutes, ...reviewRoutes, ...learnRoutes];
+  const newsRoutes: MetadataRoute.Sitemap = getAllNewsArticles().map((article) => ({
+    url: `${BASE_URL}/news/${article.slug}/`,
+    lastModified: new Date(article.date),
+    changeFrequency: "monthly",
+    priority: 0.6,
+  }));
+
+  return [...staticRoutes, ...distilleryRoutes, ...episodeRoutes, ...reviewRoutes, ...learnRoutes, ...newsRoutes];
 }

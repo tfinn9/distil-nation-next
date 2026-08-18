@@ -62,15 +62,6 @@ export interface Review {
   spiritType: string;
 }
 
-export interface Event {
-  slug: string;
-  title: string;
-  date: string;
-  location: string;
-  description: string;
-  image: string;
-}
-
 export interface NavItem {
   label: string;
   href: string;

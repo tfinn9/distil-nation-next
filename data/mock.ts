@@ -1,4 +1,4 @@
-import { Episode, Distillery, Article, Review, Event, Host, NavItem } from "@/types";
+import { Episode, Distillery, Article, Review, Host, NavItem } from "@/types";
 
 export const navItems: NavItem[] = [
   { label: "Home", href: "/" },
@@ -6,7 +6,7 @@ export const navItems: NavItem[] = [
   { label: "Distilleries", href: "/distilleries/" },
   { label: "Learn", href: "/learn/" },
   { label: "Reviews", href: "/reviews/" },
-  { label: "Events", href: "/events/" },
+  { label: "News", href: "/news/" },
   { label: "About", href: "/about/" },
   { label: "Contact", href: "/contact/" },
 ];
@@ -2361,9 +2361,6 @@ export const reviews: Review[] = [
     spiritType: "Gin",
   },
 ];
-
-export const events: Event[] = [];
-
 
 export const hosts: Host[] = [
   {

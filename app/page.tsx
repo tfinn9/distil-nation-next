@@ -8,9 +8,11 @@ import { MapSection } from "@/components/MapSection";
 import { FadeIn } from "@/components/FadeIn";
 import { CTABanner } from "@/components/CTABanner";
 import { KbArticleCard } from "@/components/KbArticleCard";
+import { NewsArticleCard } from "@/components/NewsArticleCard";
 import { episodes as fallbackEpisodes, distilleries, siteConfig } from "@/data/mock";
 import { getSpreakerEpisodes } from "@/data/spreaker";
 import { getAllKbArticles } from "@/lib/kb";
+import { getAllNewsArticles } from "@/lib/news";
 import { Youtube, Headphones, Mail } from "lucide-react";
 import Link from "next/link";
 
@@ -23,6 +25,7 @@ export default async function Home() {
   const spreakerEpisodes = await getSpreakerEpisodes();
   const featuredEpisode = spreakerEpisodes[0] || fallbackEpisodes[0];
   const featuredArticles = getAllKbArticles().slice(0, 3);
+  const latestNews = getAllNewsArticles().slice(0, 3);
   return (
     <>
       <Hero />
@@ -81,6 +84,35 @@ export default async function Home() {
 
       <section className="py-20 md:py-28 bg-card">
         <div className="container mx-auto px-4 md:px-6">
+          <SectionHeader
+            title="Latest news"
+            description="What's happening across New Zealand's craft spirits industry."
+            action={
+              <Link
+                href="/news/"
+                className="text-gold font-medium hover:text-gold/80 transition-colors"
+              >
+                All news →
+              </Link>
+            }
+          />
+          {latestNews.length > 0 ? (
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {latestNews.map((article) => (
+                <NewsArticleCard key={article.slug} article={article} />
+              ))}
+            </div>
+          ) : (
+            <div className="rounded-3xl bg-background border border-border p-12 text-center">
+              <h3 className="font-heading text-2xl font-semibold text-offwhite mb-2">No news yet</h3>
+              <p className="text-muted-foreground">Check back soon for updates from the New Zealand craft spirits industry.</p>
+            </div>
+          )}
+        </div>
+      </section>
+
+      <section className="py-20 md:py-28 bg-background">
+        <div className="container mx-auto px-4 md:px-6">
           <CTABanner
             title="Subscribe to the podcast"
             description="Catch every episode on your favourite platform."
@@ -112,7 +144,7 @@ export default async function Home() {
         </div>
       </section>
 
-      <section className="py-20 md:py-28 bg-background">
+      <section className="py-20 md:py-28 bg-card">
         <div className="container mx-auto px-4 md:px-6">
           <SectionHeader
             title="Learn"
@@ -134,7 +166,7 @@ export default async function Home() {
         </div>
       </section>
 
-      <section className="py-20 md:py-28 bg-card">
+      <section className="py-20 md:py-28 bg-background">
         <div className="container mx-auto px-4 md:px-6">
           <SectionHeader
             title="Latest reviews"
