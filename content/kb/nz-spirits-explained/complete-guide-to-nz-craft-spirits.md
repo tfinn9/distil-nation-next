@@ -2,33 +2,139 @@
 title: A Complete Guide to New Zealand Craft Spirits
 slug: complete-guide-to-nz-craft-spirits
 category: New Zealand Spirits Explained
-excerpt: An overview of New Zealand's craft spirits landscape — the regions, the leading categories, and where to start exploring.
+excerpt: An introduction to New Zealand's rapidly growing craft spirits scene — from gin and whisky to rum, vodka, moonshine, and the distilleries putting a distinctly Kiwi spin on traditional spirits.
 readTime: 9 min
 ---
 
-New Zealand's craft spirits industry has grown from a handful of pioneering distilleries into a nationwide scene spanning well over a hundred producers. This guide pulls together the key threads covered in more depth elsewhere in this Learn section.
+New Zealand might be famous for wine and craft beer, but over the last two decades, another industry has quietly established itself: craft distilling.
 
-## The scale of the industry today
+What began as a small group of passionate producers has grown into a nationwide community of more than 100 distilleries producing everything from award-winning single malt whisky to botanical gins, small-batch rum, fruit liqueurs, vodka, absinthe, agave spirits, and even traditional-style moonshine.
 
-Based on the Distil-Nation NZ directory, we currently track **107 distilleries and craft spirit producers** nationwide (see "How many distilleries are there in New Zealand?" for context on why this is a snapshot rather than an official census).
+Unlike larger international producers, New Zealand distilleries tend to be small, independent, and highly experimental. They're often run by people who have backgrounds in brewing, hospitality, farming, food production, or winemaking, and that diversity has helped create one of the most interesting spirits industries in the Southern Hemisphere.
 
-## Where distilleries are concentrated
+Whether you're completely new to spirits or looking to discover something beyond the major international brands, this guide will help you understand what makes New Zealand craft spirits unique.
 
-Auckland leads by a wide margin (29 in our directory), followed by Canterbury (14), Otago (12), Waikato (9) and Bay of Plenty (8), with smaller but meaningful clusters in Wellington, Marlborough, Tasman, Taranaki, Southland, Manawatū-Whanganui and Hawke's Bay. See "Which regions of New Zealand produce spirits?" for the full breakdown.
+## How big is New Zealand's craft spirits industry?
 
-## What New Zealand makes best
+The industry is still relatively young, but it's growing quickly.
 
-**Gin** is the dominant category by a clear margin — it's quick to bring to market, doesn't require barrel ageing, and gives distillers a way to showcase native botanicals like mānuka, kawakawa and horopito. **Liqueurs, vodka, whisky and rum** follow, with whisky punching well above its weight on reputation thanks to New Zealand's link to the historic Willowbank Distillery lineage and newer producers like Cardrona Distillery. See "What spirits are New Zealand distilleries best known for?" for more detail.
+Based on the Distil-Nation NZ directory, we currently track **107 distilleries and craft spirit producers** across the country. Because new producers continue to emerge while others close, this should be viewed as a living snapshot rather than an official census.
 
-## Why New Zealand became a craft distilling hub
+The modern New Zealand craft distilling movement accelerated during the 2010s, following a path similar to the country's craft beer boom. Lower barriers to entry, growing consumer interest, and the rise of premium local products encouraged a new generation of distillers to enter the market.
 
-A head start from New Zealand's mature craft beer and wine culture, clean water and strong agricultural base, distinctive native botanicals, and a tourism-friendly landscape have all played a part — see "Why has New Zealand become a craft distilling destination?" for the full picture.
+Today, New Zealand spirits can be found everywhere from farmers' markets and cellar doors to international competitions and export markets.
 
-## Where to start exploring
+## Where are New Zealand's distilleries located?
 
-- **New to spirits generally?** Start with our Getting Started section for the fundamentals — ABV, standard drinks, and the major spirit categories.
-- **Curious about a specific spirit?** Our Whisky, Gin, and Rum/Vodka/Moonshine knowledge bases go deep on how each is made.
-- **Want to visit distilleries in person?** See our Distillery Tourism section for regional visiting guides.
-- **Thinking about the industry side?** See our New Zealand Distilling Laws and Industry-Focused sections (note: several of these articles are still being researched and verified — see the relevant caveats where they appear).
+You'll find distilleries in almost every region of the country, but several areas have become particularly strong centres for craft spirit production.
 
-This guide will be updated as our directory grows and as more detailed regional and category guides are published.
+* Auckland: 29 distilleries
+* Canterbury: 14 distilleries
+* Otago: 12 distilleries
+* Waikato: 9 distilleries
+* Bay of Plenty: 8 distilleries
+
+Smaller but equally interesting distilling communities have developed in Wellington, Marlborough, Tasman, Hawke's Bay, Taranaki, Manawatū-Whanganui, Southland, and Northland.
+
+Some distilleries operate in major urban centres, while others are tucked away in rural settings, vineyards, historic buildings, converted warehouses, and even working farms.
+
+## Gin: New Zealand's signature craft spirit
+
+If there's one category that defines New Zealand craft distilling, it's gin.
+
+Gin dominates the industry for several reasons. Unlike whisky, which can spend years aging in barrels, gin can be produced and sold much more quickly. That gives distillers the freedom to experiment with recipes and launch new products.
+
+More importantly, gin allows producers to showcase local ingredients.
+
+Many New Zealand distilleries incorporate native botanicals such as:
+
+* Mānuka
+* Kawakawa
+* Horopito
+* Kānuka
+* Douglas fir
+* Native citrus varieties
+
+The result is a style of gin that often tastes brighter, fresher, and more botanical than many traditional European expressions.
+
+## Whisky: Small in volume, big in reputation
+
+New Zealand whisky occupies an unusual position.
+
+The category is much smaller than gin, but it has developed an international reputation that far exceeds its size.
+
+Part of that reputation comes from New Zealand's historical connection to the country's former whisky industry, while modern distilleries have built on that foundation with innovative approaches to grain, fermentation, barrel selection, and maturation.
+
+You'll find everything from traditional single malts to experimental whiskies aged in pinot noir, sherry, port, and New Zealand wine barrels.
+
+## Beyond gin and whisky
+
+While gin and whisky receive most of the attention, they're only part of the story.
+
+Many New Zealand producers are expanding into:
+
+* Vodka
+* Rum
+* Liqueurs
+* Agave spirits
+* Moonshine
+* Fruit spirits
+* Aperitifs
+
+Because many distilleries operate on a small scale, experimentation is often encouraged rather than avoided.
+
+Limited releases, seasonal spirits, barrel finishes, and one-off collaborations are common, which means there's almost always something new to discover.
+
+## What makes New Zealand spirits different?
+
+Several factors have shaped the local industry.
+
+### A strong agricultural foundation
+
+New Zealand's farming sector provides access to high-quality grain, fruit, honey, botanicals, and dairy products.
+
+### Clean water
+
+Water is one of the most important ingredients in spirit production, and New Zealand producers often have access to excellent local water sources.
+
+### A craft culture
+
+The country's established wine and craft beer industries created an environment where consumers were already comfortable exploring premium, locally made products.
+
+### Native ingredients
+
+Few countries have access to the range of indigenous plants available in New Zealand, and many distillers have embraced them to create uniquely local flavour profiles.
+
+### Tourism
+
+Cellar doors, tasting rooms, and distillery experiences have become an important part of the industry, helping visitors connect directly with producers.
+
+## Where should beginners start?
+
+If you're new to New Zealand spirits, start with these categories:
+
+**If you enjoy cocktails:** Explore gin.
+
+**If you enjoy sipping spirits neat:** Try whisky.
+
+**If you prefer lighter, more neutral flavours:** Start with vodka.
+
+**If you enjoy sweeter drinks:** Explore liqueurs.
+
+**If you want something completely different:** Look for small-batch rum or traditional-style moonshine.
+
+The best approach is simple: visit local distilleries, attend tastings, and experiment.
+
+One of the biggest strengths of New Zealand's craft spirits industry is that many producers are small enough that you'll often meet the people who actually made the bottle you're holding.
+
+And that's something you won't find on a supermarket shelf.
+
+---
+
+**Related guides:**
+
+* How many distilleries are there in New Zealand?
+* Which regions of New Zealand produce spirits?
+* What spirits are New Zealand distilleries best known for?
+* Why has New Zealand become a craft distilling destination?
+* The complete New Zealand distillery map
