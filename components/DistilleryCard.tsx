@@ -29,7 +29,7 @@ export function DistilleryCard({
         className="group relative flex h-full flex-col gap-3 rounded-2xl bg-card border border-border p-5 hover:border-gold/50 transition-colors"
       >
         {isFavorite && (
-          <Heart className="absolute top-4 right-4 h-4 w-4 fill-gold text-gold" aria-label="Favorite" />
+          <Heart className="absolute top-4 right-4 h-4 w-4 fill-gold text-gold" aria-label="Favourite" />
         )}
 
         <div className="flex items-center gap-3">

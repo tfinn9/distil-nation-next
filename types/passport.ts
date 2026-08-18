@@ -14,7 +14,7 @@ export const PASSPORT_STATUS_LABELS: Record<PassportStatus, string> = {
   tasting_completed: "Tasting completed",
   podcast_listened: "Podcast listened",
   video_watched: "Video watched",
-  favorite: "Favorite",
+  favorite: "Favourite",
 };
 
 export const PASSPORT_STATUS_ORDER: PassportStatus[] = [
