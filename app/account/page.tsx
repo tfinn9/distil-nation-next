@@ -3,6 +3,8 @@ import { createClient } from "@/lib/supabase/server";
 import { ProfileForm } from "@/components/ProfileForm";
 import { SignOutButton } from "@/components/SignOutButton";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { PassportDashboard } from "@/components/PassportDashboard";
+import type { PassportEntry } from "@/types/passport";
 
 export const metadata = {
   title: "Your Account | Distil-Nation NZ",
@@ -18,11 +20,10 @@ export default async function AccountPage() {
     redirect("/login");
   }
 
-  const { data: profile } = await supabase
-    .from("profiles")
-    .select("display_name, bio, avatar_url")
-    .eq("id", user.id)
-    .maybeSingle();
+  const [{ data: profile }, { data: passportRows }] = await Promise.all([
+    supabase.from("profiles").select("display_name, bio, avatar_url").eq("id", user.id).maybeSingle(),
+    supabase.from("passport_entries").select("*").order("updated_at", { ascending: false }),
+  ]);
 
   return (
     <div className="min-h-screen bg-background">
@@ -37,10 +38,14 @@ export default async function AccountPage() {
           <SignOutButton />
         </div>
 
-        <ProfileForm
-          initialDisplayName={profile?.display_name ?? ""}
-          initialBio={profile?.bio ?? ""}
-        />
+        <div className="space-y-8">
+          <ProfileForm
+            initialDisplayName={profile?.display_name ?? ""}
+            initialBio={profile?.bio ?? ""}
+          />
+
+          <PassportDashboard entries={(passportRows ?? []) as PassportEntry[]} />
+        </div>
       </div>
     </div>
   );

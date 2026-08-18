@@ -6,6 +6,7 @@ import dynamic from "next/dynamic";
 import { DistilleryCard } from "./DistilleryCard";
 import { Distillery } from "@/types";
 import { LayoutGrid, Map as MapIcon } from "lucide-react";
+import { usePassportEntries } from "@/hooks/usePassportEntries";
 
 const DistilleryMap = dynamic(() => import("./DistilleryMap").then((m) => m.DistilleryMap), {
   ssr: false,
@@ -26,6 +27,7 @@ export function DistilleryGrid({
   spiritTypes: string[];
 }) {
   const searchParams = useSearchParams();
+  const { entries: passportEntries } = usePassportEntries();
   const [view, setView] = useState<"grid" | "map">("grid");
   const [region, setRegion] = useState("All");
   const [spirit, setSpirit] = useState("All");
@@ -175,7 +177,11 @@ export function DistilleryGrid({
       {view === "grid" ? (
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {filtered.map((distillery) => (
-            <DistilleryCard key={distillery.slug} distillery={distillery} />
+            <DistilleryCard
+              key={distillery.slug}
+              distillery={distillery}
+              passport={passportEntries[distillery.slug]}
+            />
           ))}
         </div>
       ) : (
