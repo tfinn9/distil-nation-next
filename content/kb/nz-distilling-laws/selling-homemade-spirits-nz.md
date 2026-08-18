@@ -2,28 +2,97 @@
 title: Can You Legally Sell Homemade Spirits in New Zealand?
 slug: selling-homemade-spirits-nz
 category: New Zealand Distilling Laws
-excerpt: No — selling spirits requires an excise manufacturer's licence and, depending on how you sell, an alcohol licence under the Sale and Supply of Alcohol Act 2012, on top of standard food safety and labelling compliance.
+excerpt: No. Making spirits at home for personal use is legal in New Zealand, but selling those spirits is a very different matter — and a much more heavily regulated one.
 readTime: 4 min
 status: draft-needs-legal-review
 ---
 
-*This is general information, not legal advice. Confirm current requirements with Customs NZ, your local council and a lawyer before selling any spirit commercially.*
+**No. Making spirits at home for personal use is legal in New Zealand, but selling those spirits is a very different matter.**
 
-No — selling spirit you've distilled without the appropriate licences is not legal in New Zealand, and this sits on top of the separate issue of whether you were even licensed to distil it in the first place (see "Is home distilling legal in New Zealand?").
+New Zealand is unusual because it allows adults to distil spirits for their own consumption. That often leads to an obvious question:
 
-## The layers of compliance involved
+*"If I can legally make spirits at home, can I sell them?"*
 
-Selling spirits commercially in New Zealand generally involves several separate compliance layers:
+The short answer is no.
 
-- **An excise manufacturer's licence** from Customs NZ, covering the actual production and the excise duty owed on it
-- **An alcohol licence** under the Sale and Supply of Alcohol Act 2012, if you're selling directly to the public (e.g. cellar door sales, retail, or on-site consumption)
-- **Food safety and labelling compliance**, including standard drinks labelling and other requirements under the Australia New Zealand Food Standards Code
-- **GST and standard business registration** requirements that apply to any commercial venture
+Once you begin producing alcohol for sale, you're moving from a hobby into a regulated commercial activity. At that point, a range of legal, tax, food safety, and licensing requirements may apply.
 
-## Why this matters even for small or informal sales
+*This article provides general information only and shouldn't be considered legal advice. Always confirm current requirements with the relevant authorities before selling any alcohol.*
 
-"Selling" doesn't need to mean a large commercial operation — even a small batch sold at a market stall or informally to friends for money would fall under these same requirements in principle. There isn't a hobbyist exemption for selling spirits the way there sometimes is for other home-made goods.
+## Home distilling and commercial distilling aren't treated the same way
 
-## Where to start if you're serious about it
+Home distilling is permitted for personal use.
 
-If you want to move from home experimentation toward legitimately selling spirit, the right first step is contacting Customs NZ about excise licensing requirements, and your local council about alcohol licensing — see also "What licences do you need to start a distillery in New Zealand?" in this section.
+Commercial distilling is regulated.
+
+The difference isn't the size of your still or the number of bottles you produce. The difference is whether you're producing alcohol for personal consumption or for sale.
+
+Even a small batch made in a garage can fall under commercial regulations if it's being sold.
+
+## Why are spirits regulated differently?
+
+Spirits are subject to rules that don't apply in the same way to many other homemade products.
+
+Commercial spirit producers may need to consider requirements relating to:
+
+* Excise duty
+* Customs registration
+* Food safety
+* Product labelling
+* Manufacturing standards
+* Alcohol licensing
+
+These requirements help regulate the production, taxation, sale, and distribution of alcoholic products.
+
+## What if you're only selling to friends and family?
+
+Selling a few bottles to friends might seem informal, but accepting payment can still change the legal status of the product.
+
+The size of the sale doesn't necessarily determine whether an activity is considered commercial.
+
+If money changes hands, it's important to understand your obligations.
+
+## What about selling at markets, festivals, or online?
+
+Selling spirits through:
+
+* Farmers' markets
+* Craft fairs
+* Social media
+* Online stores
+* Community events
+
+doesn't automatically exempt you from commercial requirements.
+
+The same regulations generally apply regardless of where the sale takes place.
+
+## What if you want to turn your hobby into a business?
+
+Many New Zealand craft distilleries began as hobbies.
+
+If you're thinking about taking that step, it's worth researching:
+
+* Excise obligations
+* Distillery licensing requirements
+* Equipment costs
+* Insurance
+* Food safety requirements
+* Packaging and labelling standards
+* Distribution options
+
+Starting small doesn't mean you can ignore the regulatory side of the industry.
+
+## The bottom line
+
+You can legally make spirits at home for your own use in New Zealand.
+
+You can't assume that the same rules apply once you start selling them.
+
+If you're considering selling homemade spirits, treat it as the start of a business rather than an extension of a hobby, and make sure you understand the legal requirements before offering your first bottle for sale.
+
+**Related articles:**
+
+* Is home distilling legal in New Zealand?
+* Can you distil spirits for personal use in New Zealand?
+* How does excise duty work in New Zealand?
+* What licences do you need to start a distillery in New Zealand?
