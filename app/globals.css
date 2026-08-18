@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
+@plugin "@tailwindcss/typography";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -125,6 +126,12 @@
   --forest: #355C4A;
   --offwhite: #F6F4EF;
   --charcoal: #202020;
+  --tw-prose-invert-links: var(--gold);
+  --tw-prose-invert-bold: var(--offwhite);
+  --tw-prose-invert-headings: var(--offwhite);
+  --tw-prose-invert-bullets: var(--gold);
+  --tw-prose-invert-quotes: var(--gold);
+  --tw-prose-invert-quote-borders: var(--gold);
 }
 
 @layer base {

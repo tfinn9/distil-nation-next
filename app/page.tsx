@@ -7,8 +7,10 @@ import { Newsletter } from "@/components/Newsletter";
 import { MapSection } from "@/components/MapSection";
 import { FadeIn } from "@/components/FadeIn";
 import { CTABanner } from "@/components/CTABanner";
+import { KbArticleCard } from "@/components/KbArticleCard";
 import { episodes as fallbackEpisodes, distilleries, siteConfig } from "@/data/mock";
 import { getSpreakerEpisodes } from "@/data/spreaker";
+import { getAllKbArticles } from "@/lib/kb";
 import { Youtube, Headphones, Mail } from "lucide-react";
 import Link from "next/link";
 
@@ -20,6 +22,7 @@ export const metadata = {
 export default async function Home() {
   const spreakerEpisodes = await getSpreakerEpisodes();
   const featuredEpisode = spreakerEpisodes[0] || fallbackEpisodes[0];
+  const featuredArticles = getAllKbArticles().slice(0, 3);
   return (
     <>
       <Hero />
@@ -123,9 +126,10 @@ export default async function Home() {
               </Link>
             }
           />
-          <div className="rounded-3xl bg-card border border-border p-12 text-center">
-            <h3 className="font-heading text-2xl font-semibold text-offwhite mb-2">Knowledge base coming soon</h3>
-            <p className="text-muted-foreground max-w-xl mx-auto">We&apos;re putting together guides and articles on New Zealand craft spirits. Check back shortly.</p>
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {featuredArticles.map((article) => (
+              <KbArticleCard key={article.slug} article={article} />
+            ))}
           </div>
         </div>
       </section>
