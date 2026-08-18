@@ -1,20 +1,96 @@
 ---
-title: Can You Distil Spirits for Personal Use?
+title: Can You Distil Spirits for Personal Use in New Zealand?
 slug: can-you-distil-for-personal-use
 category: New Zealand Distilling Laws
-excerpt: Generally no — New Zealand's excise licensing requirements for distilling spirits apply regardless of intent to sell, unlike the personal-use exemptions that exist for home-brewed beer and wine.
+excerpt: Yes. In New Zealand, adults can legally distil spirits at home for their own personal use — but distilling to sell is a different matter entirely.
 readTime: 3 min
 status: draft-needs-legal-review
 ---
 
-*This is general information, not legal advice. Confirm the current position with Customs NZ or a lawyer before acting on it.*
+**Yes. In New Zealand, adults can legally distil spirits at home for their own personal use.**
 
-No — as covered in "Is home distilling legal in New Zealand?", New Zealand's excise licensing requirements for distilling spirits generally apply whether or not you intend to sell what you produce. This is a meaningful difference from home-brewing beer or making wine, where New Zealand law generally permits personal, non-commercial production without a licence.
+That makes New Zealand unusual. Many countries allow home brewing and winemaking but prohibit home distillation without a licence. New Zealand takes a different approach and permits individuals to produce spirits at home, provided those spirits are made for personal consumption.
 
-## Why "personal use" doesn't create an exemption here
+However, there's an important distinction:
 
-The rationale for licensing spirit production isn't only about preventing unlicensed sales — it's also about excise revenue on alcohol content generally, and about safety (poorly managed distillation carries real risks, including methanol contamination). Both of those concerns exist regardless of whether the resulting spirit is sold or kept for personal drinking, which is why the personal-use exemption that applies to beer and wine doesn't extend to spirits in the same way.
+**Distilling for yourself is legal. Distilling to sell is not.**
 
-## What this means practically
+*This article provides general information only and shouldn't be considered legal advice. Laws and regulations can change, so always confirm current requirements with the relevant authorities.*
 
-If your interest in distilling is purely as a hobby, it's worth understanding that New Zealand treats this differently from home-brewing before assuming the same rules apply — and worth checking directly with Customs NZ about what, if anything, is permitted for genuinely personal, small-scale experimentation, since we don't have a verified definitive answer to publish here beyond the general principle above.
+## What does "personal use" actually mean?
+
+Personal use generally means the spirit is being produced for your own consumption rather than for commercial purposes.
+
+This might include:
+
+* Making whisky at home as a hobby
+* Producing small batches of gin for personal enjoyment
+* Experimenting with botanical infusions
+* Distilling spirits to share with friends and family
+
+Once money changes hands, different rules apply.
+
+## Can you sell homemade spirits?
+
+No.
+
+If you want to sell spirits in New Zealand, you'll need to comply with a range of legal and regulatory requirements.
+
+These may include requirements relating to:
+
+* Excise duty
+* Customs registration
+* Food safety
+* Product labelling
+* Licensing
+* Manufacturing standards
+
+Commercial distilling is regulated very differently from home distilling.
+
+## Are there limits on how much you can distil at home?
+
+There are no specific volume limits for personal-use distilling written into New Zealand law in the same way that some countries limit the amount of beer or wine that can be produced.
+
+However, very large-scale production could raise questions about whether the spirits are genuinely being produced for personal consumption.
+
+If you're planning anything beyond hobby-scale production, it's worth seeking advice directly from the relevant authorities.
+
+## Is home distilling safe?
+
+Legal doesn't automatically mean safe.
+
+Distillation involves:
+
+* Flammable liquids
+* High temperatures
+* Pressurised equipment
+* Vapour management
+
+Poorly designed or poorly maintained equipment can create serious hazards.
+
+If you're new to distilling:
+
+* Learn the fundamentals before operating a still
+* Use equipment designed specifically for distillation
+* Never leave a still unattended
+* Ensure adequate ventilation
+* Understand how your equipment works before attempting a run
+
+## Why is New Zealand different?
+
+New Zealand's approach to home distilling is relatively unique.
+
+While many countries regulate spirits much more heavily, New Zealand has historically taken a more permissive approach to small-scale, personal production.
+
+That doesn't mean commercial production is unregulated. Professional distilleries must still comply with excise, licensing, and food safety requirements.
+
+The key distinction is simple:
+
+**Home distilling for personal use is legal. Selling spirits requires compliance with commercial regulations.**
+
+**Related articles:**
+
+* Is home distilling legal in New Zealand?
+* How does excise duty work in New Zealand?
+* What licences do you need to start a distillery in New Zealand?
+* How does a still work?
