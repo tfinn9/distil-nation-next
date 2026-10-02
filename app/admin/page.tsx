@@ -2,7 +2,7 @@ import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import Link from "next/link";
-import { Wine, Award, Compass, Users } from "lucide-react";
+import { Wine, Award, Compass, Inbox } from "lucide-react";
 
 export const metadata = {
   title: "Admin | Distil-Nation NZ",
@@ -33,16 +33,18 @@ export default async function AdminPage() {
     );
   }
 
-  const [{ count: spiritCount }, { count: badgeCount }, { count: questCount }] = await Promise.all([
+  const [{ count: spiritCount }, { count: badgeCount }, { count: questCount }, { count: submissionCount }] = await Promise.all([
     supabase.from("spirits").select("*", { count: "exact", head: true }),
     supabase.from("badges").select("*", { count: "exact", head: true }),
     supabase.from("quests").select("*", { count: "exact", head: true }),
+    supabase.from("spirit_submissions").select("*", { count: "exact", head: true }).eq("status", "pending"),
   ]);
 
   const cards = [
     { title: "Spirits", count: spiritCount ?? 0, href: "/admin/spirits", icon: Wine, description: "Manage spirit/product database" },
     { title: "Badges", count: badgeCount ?? 0, href: "/admin/badges", icon: Award, description: "Manage achievements and titles" },
     { title: "Quests", count: questCount ?? 0, href: "/admin/quests", icon: Compass, description: "Manage discovery quests" },
+    { title: "Submissions", count: submissionCount ?? 0, href: "/admin/submissions", icon: Inbox, description: "Review user spirit submissions" },
   ];
 
   return (

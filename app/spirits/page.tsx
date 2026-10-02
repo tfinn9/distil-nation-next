@@ -5,6 +5,8 @@ import { SpiritsGrid } from "@/components/SpiritsGrid";
 import { spirits } from "@/data/spirits";
 import { distilleries } from "@/data/mock";
 import { SPIRIT_CATEGORIES } from "@/types/passport";
+import Link from "next/link";
+import { Plus } from "lucide-react";
 
 export const metadata = {
   title: "NZ Spirits | Distil-Nation NZ",
@@ -46,6 +48,19 @@ export default async function SpiritsPage() {
         </dl>
 
         <SpiritsGrid spirits={spirits} distilleries={distilleries} />
+
+        <div className="mt-12 rounded-2xl border border-border bg-card p-6 text-center">
+          <p className="text-muted-foreground text-sm mb-3">
+            Know a New Zealand spirit we haven&apos;t listed?
+          </p>
+          <Link
+            href="/submit-spirit"
+            className="inline-flex items-center gap-1.5 rounded-lg bg-gold px-4 py-2 text-sm font-semibold text-charcoal hover:bg-gold/90 transition-colors"
+          >
+            <Plus className="h-4 w-4" />
+            Submit a Spirit
+          </Link>
+        </div>
 
         <div className="mt-16">
           <Newsletter />

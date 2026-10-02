@@ -2,7 +2,9 @@ import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import type { Quest } from "@/types/passport";
-import { Compass, Check, X } from "lucide-react";
+import { DeleteQuestButton } from "@/components/admin/DeleteQuestButton";
+import Link from "next/link";
+import { Compass, Plus, Check, X, Pencil } from "lucide-react";
 
 export const metadata = {
   title: "Manage Quests | Distil-Nation NZ",
@@ -33,18 +35,25 @@ export default async function AdminQuestsPage() {
       <div className="container mx-auto px-4 md:px-6 pb-20 max-w-4xl">
         <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Admin", href: "/admin" }, { label: "Quests" }]} />
 
-        <h1 className="font-heading text-3xl font-semibold text-offwhite mb-2">Quests</h1>
-        <p className="text-muted-foreground text-sm mb-8">{allQuests.length} quests configured</p>
-
-        <p className="rounded-xl bg-gold/10 border border-gold/20 p-4 text-sm text-gold/90 mb-8">
-          Quests are stored in the database. Add or edit quests via the Supabase dashboard or by running SQL migrations.
-        </p>
+        <div className="flex items-center justify-between mb-8">
+          <div>
+            <h1 className="font-heading text-3xl font-semibold text-offwhite">Quests</h1>
+            <p className="text-muted-foreground text-sm">{allQuests.length} quests configured</p>
+          </div>
+          <Link
+            href="/admin/quests/new"
+            className="inline-flex items-center gap-1.5 rounded-lg bg-gold px-4 py-2 text-sm font-semibold text-charcoal hover:bg-gold/90 transition-colors"
+          >
+            <Plus className="h-4 w-4" />
+            Add Quest
+          </Link>
+        </div>
 
         <div className="space-y-3">
           {allQuests.map((quest) => (
             <div key={quest.id} className="rounded-xl bg-card border border-border px-4 py-3">
-              <div className="flex items-center gap-3">
-                <Compass className="h-5 w-5 text-gold flex-shrink-0" />
+              <div className="flex items-start gap-3">
+                <Compass className="h-5 w-5 text-gold flex-shrink-0 mt-0.5" />
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center gap-2">
                     <p className="text-sm text-offwhite font-medium">{quest.name}</p>
@@ -64,6 +73,16 @@ export default async function AdminQuestsPage() {
                     </p>
                   )}
                 </div>
+                <div className="flex items-center gap-2 flex-shrink-0">
+                  <Link
+                    href={`/admin/quests/${quest.id}/edit`}
+                    className="text-muted-foreground hover:text-gold transition-colors"
+                    title="Edit"
+                  >
+                    <Pencil className="h-4 w-4" />
+                  </Link>
+                  <DeleteQuestButton id={quest.id} name={quest.name} />
+                </div>
               </div>
             </div>
           ))}
@@ -71,7 +90,7 @@ export default async function AdminQuestsPage() {
 
         {allQuests.length === 0 && (
           <div className="rounded-2xl bg-card border border-border p-8 text-center">
-            <p className="text-muted-foreground">No quests configured. Run the database migration to seed initial quests.</p>
+            <p className="text-muted-foreground">No quests yet. Create your first quest above.</p>
           </div>
         )}
       </div>
