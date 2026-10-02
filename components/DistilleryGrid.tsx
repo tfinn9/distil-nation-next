@@ -171,7 +171,7 @@ export function DistilleryGrid({
       </div>
 
       <p className="text-sm text-muted-foreground mb-8">
-        Showing {filtered.length} distillery{filtered.length !== 1 ? "ies" : "y"}
+        Showing {filtered.length} {filtered.length !== 1 ? "distilleries" : "distillery"}
       </p>
 
       {view === "grid" ? (
