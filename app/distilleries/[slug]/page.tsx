@@ -3,8 +3,10 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Newsletter } from "@/components/Newsletter";
 import { PassportControls } from "@/components/PassportControls";
 import { distilleries, episodes, siteConfig } from "@/data/mock";
+import { getSpiritsByDistillery } from "@/data/spirits";
 import { Badge } from "@/components/ui/badge";
-import { MapPin, Globe, Award, Users, Clock } from "lucide-react";
+import { SpiritCard } from "@/components/SpiritCard";
+import { MapPin, Globe, Award, Users, Clock, Wine } from "lucide-react";
 import Link from "next/link";
 
 export function generateStaticParams() {
@@ -38,6 +40,8 @@ export default async function DistilleryPage({
   const relatedEpisode = distillery.episodeSlug
     ? episodes.find((e) => e.slug === distillery.episodeSlug)
     : null;
+
+  const distillerySpirits = getSpiritsByDistillery(distillery.slug);
 
   return (
     <div className="min-h-screen bg-background">
@@ -138,20 +142,42 @@ export default async function DistilleryPage({
                 </div>
               )}
 
-              <div className="space-y-3">
-                <h2 className="font-heading text-2xl font-semibold text-offwhite">Products</h2>
-                <div className="flex flex-wrap gap-2">
-                  {distillery.products.map((product) => (
-                    <Badge
-                      key={product}
-                      variant="secondary"
-                      className="bg-background text-muted-foreground border border-border"
-                    >
-                      {product}
-                    </Badge>
-                  ))}
+              {/* Spirits from this distillery */}
+              {distillerySpirits.length > 0 && (
+                <div className="space-y-4">
+                  <div className="flex items-center justify-between">
+                    <h2 className="font-heading text-2xl font-semibold text-offwhite">
+                      Spirits ({distillerySpirits.length})
+                    </h2>
+                    <Link href="/spirits/" className="text-sm text-gold hover:text-gold/80 transition-colors">
+                      View all spirits →
+                    </Link>
+                  </div>
+                  <div className="grid gap-4 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4">
+                    {distillerySpirits.map((spirit) => (
+                      <SpiritCard key={spirit.id} spirit={spirit} unlocked compact />
+                    ))}
+                  </div>
                 </div>
-              </div>
+              )}
+
+              {/* Legacy products list for distilleries without spirit entries */}
+              {distillerySpirits.length === 0 && distillery.products.length > 0 && (
+                <div className="space-y-3">
+                  <h2 className="font-heading text-2xl font-semibold text-offwhite">Products</h2>
+                  <div className="flex flex-wrap gap-2">
+                    {distillery.products.map((product) => (
+                      <Badge
+                        key={product}
+                        variant="secondary"
+                        className="bg-background text-muted-foreground border border-border"
+                      >
+                        {product}
+                      </Badge>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               {relatedEpisode && (
                 <div className="space-y-3">

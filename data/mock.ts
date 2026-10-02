@@ -1,14 +1,12 @@
 import { Episode, Distillery, Article, Review, Host, NavItem } from "@/types";
 
 export const navItems: NavItem[] = [
-  { label: "Home", href: "/" },
-  { label: "Episodes", href: "/episodes/" },
-  { label: "Distilleries", href: "/distilleries/" },
+  { label: "Explore", href: "/distilleries/" },
+  { label: "Spirits", href: "/spirits/" },
+  { label: "Quests", href: "/passport/quests/" },
   { label: "Learn", href: "/learn/" },
-  { label: "Reviews", href: "/reviews/" },
+  { label: "Podcast", href: "/episodes/" },
   { label: "News", href: "/news/" },
-  { label: "About", href: "/about/" },
-  { label: "Contact", href: "/contact/" },
 ];
 
 export const episodes: Episode[] = [

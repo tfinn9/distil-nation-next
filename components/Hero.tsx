@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { Play, Compass, ChevronDown } from "lucide-react";
+import { Compass, Map, ChevronDown } from "lucide-react";
 
 export function Hero() {
   return (
@@ -24,25 +24,25 @@ export function Hero() {
           className="max-w-5xl space-y-8"
         >
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-heading font-semibold text-offwhite leading-[1.1] tracking-tight">
-            Discover New Zealand&apos;s Craft Spirits.
+            Discover New Zealand&apos;s Craft Spirits
           </h1>
           <p className="mx-auto max-w-2xl text-lg md:text-xl text-offwhite/80 leading-relaxed">
-            Following the people, places and stories behind New Zealand&apos;s distilleries.
+            Explore distilleries. Collect the spirits you&apos;ve tried. Complete quests. Build your NZ Spirits Passport.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
             <Link
-              href="/episodes/"
+              href="/passport"
               className="inline-flex items-center gap-2 rounded-lg bg-gold px-6 py-3 text-base font-semibold text-charcoal hover:bg-gold/90 transition-colors"
             >
-              <Play className="h-5 w-5" />
-              Watch Latest Episode
+              <Compass className="h-5 w-5" />
+              Start Your Passport
             </Link>
             <Link
               href="/distilleries/"
               className="inline-flex items-center gap-2 rounded-lg border border-offwhite/20 px-6 py-3 text-base font-medium text-offwhite hover:bg-offwhite/10 transition-colors"
             >
-              <Compass className="h-5 w-5" />
-              Explore Distilleries
+              <Map className="h-5 w-5" />
+              Explore the Map
             </Link>
           </div>
         </motion.div>

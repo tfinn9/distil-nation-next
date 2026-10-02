@@ -187,6 +187,7 @@ export function DistilleryGrid({
       ) : (
         <DistilleryMap
           distilleries={filtered}
+          passportEntries={passportEntries}
           onSelectRegion={(r) => {
             setRegion(r);
             setView("grid");
